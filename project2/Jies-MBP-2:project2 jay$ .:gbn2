@@ -1,0 +1,2018 @@
+Jies-MBP-2:project2 jay$ ./gbn2 
+-----  Network Simulator Version 1.1 -------- 
+
+Enter the number of messages to simulate: 80
+Enter  packet loss probability [enter 0.0 for no loss]:0.2
+Enter packet corruption probability [0.0 for no corruption]:0.2
+Enter average time between messages from sender's layer5 [ > 0.0]:10
+Enter TRACE:2
+
+EVENT time: 6.965711,  type: 1, fromlayer5  entity: 1
+Sent from B: seq = 0, ack = 0, isACK = 0, checksum = 3232, aaaaaaaaaaaaaaaaaaaa
+
+EVENT time: 11.168114,  type: 1, fromlayer5  entity: 0
+Sent from A: seq = 0, ack = 0, isACK = 0, checksum = 2828, bbbbbbbbbbbbbbbbbbbb
+
+EVENT time: 13.216425,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 0, ack = 0, isACK = 0, checksum = 3232, aaaaaaaaaaaaaaaaaaaa
+Accpeted at A: seq = 0, ack = 0, isACK = 0, checksum = 3232, aaaaaaaaaaaaaaaaaaaa
+Ack sent from A: seq = 0, ack = 0, isACK = 1, checksum = fffe, 
+          TOLAYER3: packet being lost
+
+EVENT time: 13.858004,  type: 1, fromlayer5  entity: 0
+Sent from A: seq = 1, ack = 0, isACK = 0, checksum = 1e1d, cccccccccccccccccccc
+
+EVENT time: 20.696243,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 0, ack = 0, isACK = 0, checksum = 2828, bbbbbbbbbbbbbbbbbbbb
+Accpeted at B: seq = 0, ack = 0, isACK = 0, checksum = 2828, bbbbbbbbbbbbbbbbbbbb
+Ack sent from B: seq = 0, ack = 0, isACK = 1, checksum = fffe, 
+
+EVENT time: 21.850939,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 0, ack = 0, isACK = 1, checksum = fffe, 
+Still packets inflight, restart timer
+
+EVENT time: 25.316151,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 1, ack = 0, isACK = 0, checksum = 1e1d, cccccccccccccccccccc
+Accpeted at B: seq = 1, ack = 0, isACK = 0, checksum = 1e1d, cccccccccccccccccccc
+Ack sent from B: seq = 0, ack = 1, isACK = 1, checksum = fffd, 
+
+EVENT time: 30.965710,  type: 0, timerinterrupt   entity: 1
+
+EVENT time: 31.485765,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 0, ack = 1, isACK = 1, checksum = fffd, 
+All Ack received, timer stopped
+
+EVENT time: 33.198532,  type: 1, fromlayer5  entity: 1
+Sent from B: seq = 1, ack = 0, isACK = 0, checksum = 1413, dddddddddddddddddddd
+
+EVENT time: 33.228985,  type: 1, fromlayer5  entity: 1
+Sent from B: seq = 2, ack = 0, isACK = 0, checksum = a08, eeeeeeeeeeeeeeeeeeee
+          TOLAYER3: packet being lost
+
+EVENT time: 39.041481,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 1, ack = 0, isACK = 0, checksum = 1413, dddddddddddddddddddd
+Accpeted at A: seq = 1, ack = 0, isACK = 0, checksum = 1413, dddddddddddddddddddd
+Ack sent from A: seq = 0, ack = 1, isACK = 1, checksum = fffd, 
+
+EVENT time: 44.993275,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 0, ack = 1, isACK = 1, checksum = fffd, 
+Warning: unable to cancel your timer. It wasn't running.
+Still packets inflight, restart timer
+
+EVENT time: 46.284016,  type: 1, fromlayer5  entity: 1
+Sent from B: seq = 3, ack = 0, isACK = 0, checksum = fffc, ffffffffffffffffffff
+
+EVENT time: 52.964417,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 3, ack = 0, isACK = 0, checksum = fffc, ffffffffffffffffffff
+Resend last Aak sent from A: seq = 0, ack = 1, isACK = 1, checksum = fffd, 
+
+EVENT time: 59.306076,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 0, ack = 1, isACK = 1, checksum = fffd, 
+Still packets inflight, restart timer
+
+EVENT time: 66.232849,  type: 1, fromlayer5  entity: 0
+Sent from A: seq = 2, ack = 0, isACK = 0, checksum = f5f3, gggggggggggggggggggg
+          TOLAYER3: packet being lost
+
+EVENT time: 73.831734,  type: 1, fromlayer5  entity: 1
+Sent from B: seq = 4, ack = 0, isACK = 0, checksum = ebe7, hhhhhhhhhhhhhhhhhhhh
+
+EVENT time: 75.191452,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 4, ack = 0, isACK = 0, checksum = ebe7, hhhhhhhhhhhhhhhhhhhh
+Resend last Aak sent from A: seq = 0, ack = 1, isACK = 1, checksum = fffd, 
+
+EVENT time: 78.871010,  type: 1, fromlayer5  entity: 1
+Sent from B: seq = 5, ack = 0, isACK = 0, checksum = e1dc, iiiiiiiiiiiiiiiiiiii
+          TOLAYER3: packet being corrupted
+
+EVENT time: 80.319176,  type: 1, fromlayer5  entity: 1
+Sent from B: seq = 6, ack = 0, isACK = 0, checksum = d7d1, jjjjjjjjjjjjjjjjjjjj
+
+EVENT time: 82.498405,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 0, ack = 1, isACK = 1, checksum = fffd, 
+Still packets inflight, restart timer
+
+EVENT time: 85.164391,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 5, ack = 0, isACK = 0, checksum = e1dc, Ziiiiiiiiiiiiiiiiiii
+Checksum error at A: seq = 5, ack = 0, isACK = 0, checksum = e1dc, Ziiiiiiiiiiiiiiiiiii
+Nack sent from A: seq = 5, ack = -1, isACK = 1, checksum = 9b6f, ???j??m?
+          TOLAYER3: packet being lost
+
+EVENT time: 86.484734,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 6, ack = 0, isACK = 0, checksum = d7d1, jjjjjjjjjjjjjjjjjjjj
+Resend last Aak sent from A: seq = 0, ack = 1, isACK = 1, checksum = fffd, 
+          TOLAYER3: packet being lost
+
+EVENT time: 90.232849,  type: 0, timerinterrupt   entity: 0
+Sent from A: seq = 2, ack = 0, isACK = 0, checksum = f5f3, gggggggggggggggggggg
+timer started
+
+EVENT time: 96.260513,  type: 1, fromlayer5  entity: 0
+Sent from A: seq = 3, ack = 0, isACK = 0, checksum = cdca, kkkkkkkkkkkkkkkkkkkk
+
+EVENT time: 97.181290,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 2, ack = 0, isACK = 0, checksum = f5f3, gggggggggggggggggggg
+Accpeted at B: seq = 2, ack = 0, isACK = 0, checksum = f5f3, gggggggggggggggggggg
+Ack sent from B: seq = 0, ack = 2, isACK = 1, checksum = fffc, 
+          TOLAYER3: packet being corrupted
+
+EVENT time: 99.408516,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 3, ack = 0, isACK = 0, checksum = cdca, kkkkkkkkkkkkkkkkkkkk
+Accpeted at B: seq = 3, ack = 0, isACK = 0, checksum = cdca, kkkkkkkkkkkkkkkkkkkk
+Ack sent from B: seq = 0, ack = 3, isACK = 1, checksum = fffb, 
+          TOLAYER3: packet being lost
+
+EVENT time: 101.215439,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 0, ack = 999999, isACK = 1, checksum = fffc, 
+Corrupted Ack, ignore.
+
+EVENT time: 106.498405,  type: 0, timerinterrupt   entity: 1
+Sent from B: seq = 2, ack = 0, isACK = 0, checksum = a08, eeeeeeeeeeeeeeeeeeee
+timer started
+Sent from B: seq = 3, ack = 0, isACK = 0, checksum = fffc, ffffffffffffffffffff
+Sent from B: seq = 4, ack = 0, isACK = 0, checksum = ebe7, hhhhhhhhhhhhhhhhhhhh
+Sent from B: seq = 5, ack = 0, isACK = 0, checksum = e1dc, iiiiiiiiiiiiiiiiiiii
+
+EVENT time: 107.894577,  type: 1, fromlayer5  entity: 1
+Sent from B: seq = 7, ack = 0, isACK = 0, checksum = c3bc, llllllllllllllllllll
+          TOLAYER3: packet being corrupted
+
+EVENT time: 112.168213,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 2, ack = 0, isACK = 0, checksum = a08, eeeeeeeeeeeeeeeeeeee
+Accpeted at A: seq = 2, ack = 0, isACK = 0, checksum = a08, eeeeeeeeeeeeeeeeeeee
+Ack sent from A: seq = 0, ack = 2, isACK = 1, checksum = fffc, 
+
+EVENT time: 114.232849,  type: 0, timerinterrupt   entity: 0
+Sent from A: seq = 2, ack = 0, isACK = 0, checksum = f5f3, gggggggggggggggggggg
+          TOLAYER3: packet being lost
+timer started
+Sent from A: seq = 3, ack = 0, isACK = 0, checksum = cdca, kkkkkkkkkkkkkkkkkkkk
+
+EVENT time: 119.390083,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 0, ack = 2, isACK = 1, checksum = fffc, 
+Still packets inflight, restart timer
+
+EVENT time: 120.409836,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 3, ack = 0, isACK = 0, checksum = fffc, ffffffffffffffffffff
+Accpeted at A: seq = 3, ack = 0, isACK = 0, checksum = fffc, ffffffffffffffffffff
+Ack sent from A: seq = 0, ack = 3, isACK = 1, checksum = fffb, 
+
+EVENT time: 122.418900,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 4, ack = 0, isACK = 0, checksum = ebe7, hhhhhhhhhhhhhhhhhhhh
+Accpeted at A: seq = 4, ack = 0, isACK = 0, checksum = ebe7, hhhhhhhhhhhhhhhhhhhh
+Ack sent from A: seq = 0, ack = 4, isACK = 1, checksum = fffa, 
+          TOLAYER3: packet being corrupted
+
+EVENT time: 122.771523,  type: 1, fromlayer5  entity: 1
+Sent from B: seq = 8, ack = 0, isACK = 0, checksum = b9b1, mmmmmmmmmmmmmmmmmmmm
+
+EVENT time: 128.613281,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 3, ack = 0, isACK = 0, checksum = cdca, kkkkkkkkkkkkkkkkkkkk
+Packet already received. Ignore.
+
+EVENT time: 128.956909,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 5, ack = 0, isACK = 0, checksum = e1dc, iiiiiiiiiiiiiiiiiiii
+Accpeted at A: seq = 5, ack = 0, isACK = 0, checksum = e1dc, iiiiiiiiiiiiiiiiiiii
+Ack sent from A: seq = 0, ack = 5, isACK = 1, checksum = fff9, 
+
+EVENT time: 131.909332,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 7, ack = 0, isACK = 0, checksum = c3bc, Zlllllllllllllllllll
+Checksum error at A: seq = 7, ack = 0, isACK = 0, checksum = c3bc, Zlllllllllllllllllll
+Nack sent from A: seq = 7, ack = -1, isACK = 1, checksum = 9b6d, ???j??m?
+          TOLAYER3: packet being lost
+
+EVENT time: 135.667633,  type: 1, fromlayer5  entity: 0
+Sent from A: seq = 4, ack = 0, isACK = 0, checksum = afab, nnnnnnnnnnnnnnnnnnnn
+
+EVENT time: 135.860397,  type: 1, fromlayer5  entity: 1
+Sent from B: seq = 9, ack = 0, isACK = 0, checksum = a59c, oooooooooooooooooooo
+
+EVENT time: 136.360596,  type: 1, fromlayer5  entity: 0
+Sent from A: seq = 5, ack = 0, isACK = 0, checksum = 9b96, pppppppppppppppppppp
+
+EVENT time: 136.696091,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 0, ack = 3, isACK = 1, checksum = fffb, 
+Still packets inflight, restart timer
+
+EVENT time: 138.232849,  type: 0, timerinterrupt   entity: 0
+Sent from A: seq = 2, ack = 0, isACK = 0, checksum = f5f3, gggggggggggggggggggg
+timer started
+Sent from A: seq = 3, ack = 0, isACK = 0, checksum = cdca, kkkkkkkkkkkkkkkkkkkk
+          TOLAYER3: packet being lost
+Sent from A: seq = 4, ack = 0, isACK = 0, checksum = afab, nnnnnnnnnnnnnnnnnnnn
+Sent from A: seq = 5, ack = 0, isACK = 0, checksum = 9b96, pppppppppppppppppppp
+
+EVENT time: 140.551727,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 8, ack = 0, isACK = 0, checksum = b9b1, mmmmmmmmmmmmmmmmmmmm
+Resend last Aak sent from A: seq = 0, ack = 5, isACK = 1, checksum = fff9, 
+
+EVENT time: 141.680756,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 9, ack = 0, isACK = 0, checksum = a59c, oooooooooooooooooooo
+Resend last Aak sent from A: seq = 0, ack = 5, isACK = 1, checksum = fff9, 
+          TOLAYER3: packet being lost
+
+EVENT time: 146.325043,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 999999, ack = 4, isACK = 1, checksum = fffa, 
+Corrupted Ack, ignore.
+
+EVENT time: 150.249146,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 0, ack = 5, isACK = 1, checksum = fff9, 
+Still packets inflight, restart timer
+
+EVENT time: 154.510773,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 4, ack = 0, isACK = 0, checksum = afab, nnnnnnnnnnnnnnnnnnnn
+Accpeted at B: seq = 4, ack = 0, isACK = 0, checksum = afab, nnnnnnnnnnnnnnnnnnnn
+Ack sent from B: seq = 0, ack = 4, isACK = 1, checksum = fffa, 
+          TOLAYER3: packet being lost
+
+EVENT time: 156.061401,  type: 1, fromlayer5  entity: 1
+Sent from B: seq = 10, ack = 0, isACK = 0, checksum = 9187, qqqqqqqqqqqqqqqqqqqq
+
+EVENT time: 162.232849,  type: 0, timerinterrupt   entity: 0
+Sent from A: seq = 2, ack = 0, isACK = 0, checksum = f5f3, gggggggggggggggggggg
+timer started
+Sent from A: seq = 3, ack = 0, isACK = 0, checksum = cdca, kkkkkkkkkkkkkkkkkkkk
+          TOLAYER3: packet being corrupted
+Sent from A: seq = 4, ack = 0, isACK = 0, checksum = afab, nnnnnnnnnnnnnnnnnnnn
+Sent from A: seq = 5, ack = 0, isACK = 0, checksum = 9b96, pppppppppppppppppppp
+          TOLAYER3: packet being corrupted
+
+EVENT time: 164.085922,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 5, ack = 0, isACK = 0, checksum = 9b96, pppppppppppppppppppp
+Accpeted at B: seq = 5, ack = 0, isACK = 0, checksum = 9b96, pppppppppppppppppppp
+Ack sent from B: seq = 0, ack = 5, isACK = 1, checksum = fff9, 
+
+EVENT time: 165.210373,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 10, ack = 0, isACK = 0, checksum = 9187, qqqqqqqqqqqqqqqqqqqq
+Resend last Aak sent from A: seq = 0, ack = 5, isACK = 1, checksum = fff9, 
+
+EVENT time: 166.717072,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 0, ack = 5, isACK = 1, checksum = fff9, 
+All Ack received, timer stopped
+
+EVENT time: 169.529938,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 2, ack = 0, isACK = 0, checksum = f5f3, gggggggggggggggggggg
+Packet already received. Ignore.
+
+EVENT time: 169.632050,  type: 1, fromlayer5  entity: 0
+Sent from A: seq = 6, ack = 0, isACK = 0, checksum = 8781, rrrrrrrrrrrrrrrrrrrr
+
+EVENT time: 173.163620,  type: 1, fromlayer5  entity: 1
+Sent from B: seq = 11, ack = 0, isACK = 0, checksum = 7d72, ssssssssssssssssssss
+          TOLAYER3: packet being lost
+
+EVENT time: 174.249146,  type: 0, timerinterrupt   entity: 1
+Sent from B: seq = 6, ack = 0, isACK = 0, checksum = d7d1, jjjjjjjjjjjjjjjjjjjj
+timer started
+Sent from B: seq = 7, ack = 0, isACK = 0, checksum = c3bc, llllllllllllllllllll
+Sent from B: seq = 8, ack = 0, isACK = 0, checksum = b9b1, mmmmmmmmmmmmmmmmmmmm
+          TOLAYER3: packet being corrupted
+Sent from B: seq = 9, ack = 0, isACK = 0, checksum = a59c, oooooooooooooooooooo
+Sent from B: seq = 10, ack = 0, isACK = 0, checksum = 9187, qqqqqqqqqqqqqqqqqqqq
+
+EVENT time: 176.228394,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 4, ack = 0, isACK = 0, checksum = afab, nnnnnnnnnnnnnnnnnnnn
+Packet already received. Ignore.
+
+EVENT time: 179.717667,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 5, ack = 0, isACK = 0, checksum = 9b96, pppppppppppppppppppp
+Packet already received. Ignore.
+
+EVENT time: 179.729828,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 6, ack = 0, isACK = 0, checksum = d7d1, jjjjjjjjjjjjjjjjjjjj
+Accpeted at A: seq = 6, ack = 0, isACK = 0, checksum = d7d1, jjjjjjjjjjjjjjjjjjjj
+Ack sent from A: seq = 0, ack = 6, isACK = 1, checksum = fff8, 
+
+EVENT time: 184.981903,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 7, ack = 0, isACK = 0, checksum = c3bc, llllllllllllllllllll
+Accpeted at A: seq = 7, ack = 0, isACK = 0, checksum = c3bc, llllllllllllllllllll
+Ack sent from A: seq = 0, ack = 7, isACK = 1, checksum = fff7, 
+
+EVENT time: 187.621704,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 0, ack = 5, isACK = 1, checksum = fff9, 
+Still packets inflight, restart timer
+
+EVENT time: 189.174042,  type: 1, fromlayer5  entity: 0
+Sent from A: seq = 7, ack = 0, isACK = 0, checksum = 736c, tttttttttttttttttttt
+
+EVENT time: 190.897263,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 2, ack = 0, isACK = 0, checksum = f5f3, gggggggggggggggggggg
+Packet already received. Ignore.
+
+EVENT time: 192.971237,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 8, ack = 0, isACK = 0, checksum = b9b1, Zmmmmmmmmmmmmmmmmmmm
+Checksum error at A: seq = 8, ack = 0, isACK = 0, checksum = b9b1, Zmmmmmmmmmmmmmmmmmmm
+Nack sent from A: seq = 8, ack = -1, isACK = 1, checksum = 9b6c, ???j??m?
+
+EVENT time: 193.317474,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 3, ack = 0, isACK = 0, checksum = cdca, Zkkkkkkkkkkkkkkkkkkk
+Checksum error at B: seq = 3, ack = 0, isACK = 0, checksum = cdca, Zkkkkkkkkkkkkkkkkkkk
+Nack sent from B: seq = 3, ack = -1, isACK = 1, checksum = 9b71, ???j??m?
+
+EVENT time: 193.632050,  type: 0, timerinterrupt   entity: 0
+Sent from A: seq = 6, ack = 0, isACK = 0, checksum = 8781, rrrrrrrrrrrrrrrrrrrr
+timer started
+Sent from A: seq = 7, ack = 0, isACK = 0, checksum = 736c, tttttttttttttttttttt
+          TOLAYER3: packet being lost
+
+EVENT time: 197.347076,  type: 1, fromlayer5  entity: 0
+Sent from A: seq = 8, ack = 0, isACK = 0, checksum = 6961, uuuuuuuuuuuuuuuuuuuu
+          TOLAYER3: packet being corrupted
+
+EVENT time: 199.789047,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 9, ack = 0, isACK = 0, checksum = a59c, oooooooooooooooooooo
+Resend last Aak sent from A: seq = 0, ack = 7, isACK = 1, checksum = fff7, 
+
+EVENT time: 200.619843,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 4, ack = 0, isACK = 0, checksum = afab, nnnnnnnnnnnnnnnnnnnn
+Packet already received. Ignore.
+
+EVENT time: 202.209473,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 10, ack = 0, isACK = 0, checksum = 9187, qqqqqqqqqqqqqqqqqqqq
+Resend last Aak sent from A: seq = 0, ack = 7, isACK = 1, checksum = fff7, 
+
+EVENT time: 203.606598,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 5, ack = 0, isACK = 0, checksum = 9b96, Zppppppppppppppppppp
+Checksum error at B: seq = 5, ack = 0, isACK = 0, checksum = 9b96, Zppppppppppppppppppp
+Nack sent from B: seq = 5, ack = -1, isACK = 1, checksum = 9b6f, ???j??m?
+
+EVENT time: 204.331253,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 3, ack = -1, isACK = 1, checksum = 9b71, ???j??m?
+Nack Received, Resend window from A: seq = 6, ack = 0, isACK = 0, checksum = 8781, rrrrrrrrrrrrrrrrrrrr
+timer started
+Nack Received, Resend window from A: seq = 7, ack = 0, isACK = 0, checksum = 736c, tttttttttttttttttttt
+Nack Received, Resend window from A: seq = 8, ack = 0, isACK = 0, checksum = 6961, uuuuuuuuuuuuuuuuuuuu
+
+EVENT time: 205.258942,  type: 1, fromlayer5  entity: 1
+Sent from B: seq = 12, ack = 0, isACK = 0, checksum = 5f53, vvvvvvvvvvvvvvvvvvvv
+          TOLAYER3: packet being corrupted
+
+EVENT time: 205.621185,  type: 1, fromlayer5  entity: 0
+Sent from A: seq = 9, ack = 0, isACK = 0, checksum = 554c, wwwwwwwwwwwwwwwwwwww
+          TOLAYER3: packet being corrupted
+
+EVENT time: 206.021103,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 5, ack = -1, isACK = 1, checksum = 9b6f, ???j??m?
+Nack Received, Resend window from A: seq = 6, ack = 0, isACK = 0, checksum = 8781, rrrrrrrrrrrrrrrrrrrr
+          TOLAYER3: packet being lost
+timer started
+Nack Received, Resend window from A: seq = 7, ack = 0, isACK = 0, checksum = 736c, tttttttttttttttttttt
+          TOLAYER3: packet being corrupted
+Nack Received, Resend window from A: seq = 8, ack = 0, isACK = 0, checksum = 6961, uuuuuuuuuuuuuuuuuuuu
+Nack Received, Resend window from A: seq = 9, ack = 0, isACK = 0, checksum = 554c, wwwwwwwwwwwwwwwwwwww
+          TOLAYER3: packet being corrupted
+
+EVENT time: 207.312424,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 0, ack = 5, isACK = 1, checksum = fff9, 
+Still packets inflight, restart timer
+
+EVENT time: 209.173096,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 6, ack = 0, isACK = 0, checksum = 8781, rrrrrrrrrrrrrrrrrrrr
+Accpeted at B: seq = 6, ack = 0, isACK = 0, checksum = 8781, rrrrrrrrrrrrrrrrrrrr
+Ack sent from B: seq = 0, ack = 6, isACK = 1, checksum = fff8, 
+
+EVENT time: 211.783279,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 999999, ack = 0, isACK = 0, checksum = 5f53, vvvvvvvvvvvvvvvvvvvv
+Checksum error at A: seq = 999999, ack = 0, isACK = 0, checksum = 5f53, vvvvvvvvvvvvvvvvvvvv
+Nack sent from A: seq = 999999, ack = -1, isACK = 1, checksum = 5926, ???j??m?
+
+EVENT time: 213.387009,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 0, ack = 6, isACK = 1, checksum = fff8, 
+Still packets inflight, restart timer
+
+EVENT time: 216.043091,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 0, ack = 6, isACK = 1, checksum = fff8, 
+Still packets inflight, restart timer
+
+EVENT time: 216.972397,  type: 1, fromlayer5  entity: 1
+Sent from B: seq = 13, ack = 0, isACK = 0, checksum = 4b3e, xxxxxxxxxxxxxxxxxxxx
+
+EVENT time: 223.761017,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 0, ack = 7, isACK = 1, checksum = fff7, 
+Still packets inflight, restart timer
+
+EVENT time: 225.833603,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 13, ack = 0, isACK = 0, checksum = 4b3e, xxxxxxxxxxxxxxxxxxxx
+Resend last Aak sent from A: seq = 0, ack = 7, isACK = 1, checksum = fff7, 
+          TOLAYER3: packet being corrupted
+
+EVENT time: 226.918716,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 7, ack = 0, isACK = 0, checksum = 736c, tttttttttttttttttttt
+Accpeted at B: seq = 7, ack = 0, isACK = 0, checksum = 736c, tttttttttttttttttttt
+Ack sent from B: seq = 0, ack = 7, isACK = 1, checksum = fff7, 
+          TOLAYER3: packet being lost
+
+EVENT time: 231.329102,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 8, ack = -1, isACK = 1, checksum = 9b6c, ???j??m?
+Nack Received, Resent the window from B: seq = 8, ack = 0, isACK = 0, checksum = b9b1, mmmmmmmmmmmmmmmmmmmm
+timer started
+Nack Received, Resent the window from B: seq = 9, ack = 0, isACK = 0, checksum = a59c, oooooooooooooooooooo
+          TOLAYER3: packet being corrupted
+Nack Received, Resent the window from B: seq = 10, ack = 0, isACK = 0, checksum = 9187, qqqqqqqqqqqqqqqqqqqq
+          TOLAYER3: packet being lost
+Nack Received, Resent the window from B: seq = 11, ack = 0, isACK = 0, checksum = 7d72, ssssssssssssssssssss
+Nack Received, Resent the window from B: seq = 12, ack = 0, isACK = 0, checksum = 5f53, vvvvvvvvvvvvvvvvvvvv
+          TOLAYER3: packet being lost
+Nack Received, Resent the window from B: seq = 13, ack = 0, isACK = 0, checksum = 4b3e, xxxxxxxxxxxxxxxxxxxx
+          TOLAYER3: packet being corrupted
+
+EVENT time: 233.036362,  type: 1, fromlayer5  entity: 0
+Sent from A: seq = 10, ack = 0, isACK = 0, checksum = 4137, yyyyyyyyyyyyyyyyyyyy
+
+EVENT time: 237.387009,  type: 0, timerinterrupt   entity: 0
+Sent from A: seq = 7, ack = 0, isACK = 0, checksum = 736c, tttttttttttttttttttt
+timer started
+Sent from A: seq = 8, ack = 0, isACK = 0, checksum = 6961, uuuuuuuuuuuuuuuuuuuu
+Sent from A: seq = 9, ack = 0, isACK = 0, checksum = 554c, wwwwwwwwwwwwwwwwwwww
+          TOLAYER3: packet being corrupted
+Sent from A: seq = 10, ack = 0, isACK = 0, checksum = 4137, yyyyyyyyyyyyyyyyyyyy
+
+EVENT time: 238.364883,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 6, ack = 0, isACK = 0, checksum = 8781, rrrrrrrrrrrrrrrrrrrr
+Packet already received. Ignore.
+
+EVENT time: 240.356567,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 8, ack = 0, isACK = 0, checksum = b9b1, mmmmmmmmmmmmmmmmmmmm
+Accpeted at A: seq = 8, ack = 0, isACK = 0, checksum = b9b1, mmmmmmmmmmmmmmmmmmmm
+Ack sent from A: seq = 0, ack = 8, isACK = 1, checksum = fff6, 
+          TOLAYER3: packet being corrupted
+
+EVENT time: 241.594727,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 8, ack = 0, isACK = 0, checksum = 6961, Zuuuuuuuuuuuuuuuuuuu
+Checksum error at B: seq = 8, ack = 0, isACK = 0, checksum = 6961, Zuuuuuuuuuuuuuuuuuuu
+Nack sent from B: seq = 8, ack = -1, isACK = 1, checksum = 9071, ????
+
+EVENT time: 243.218475,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 999999, ack = 0, isACK = 0, checksum = a59c, oooooooooooooooooooo
+Checksum error at A: seq = 999999, ack = 0, isACK = 0, checksum = a59c, oooooooooooooooooooo
+Nack sent from A: seq = 999999, ack = -1, isACK = 1, checksum = 4e2b, ????
+
+EVENT time: 247.096191,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 11, ack = 0, isACK = 0, checksum = 7d72, ssssssssssssssssssss
+Resend last Aak sent from A: seq = 0, ack = 8, isACK = 1, checksum = fff6, 
+
+EVENT time: 248.334793,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 0, ack = 7, isACK = 1, checksum = fff7, 
+Still packets inflight, restart timer
+
+EVENT time: 249.986328,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 0, ack = 7, isACK = 1, checksum = fff7, 
+Still packets inflight, restart timer
+
+EVENT time: 250.670715,  type: 1, fromlayer5  entity: 0
+Sent from A: seq = 11, ack = 0, isACK = 0, checksum = 372c, zzzzzzzzzzzzzzzzzzzz
+
+EVENT time: 254.103958,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 13, ack = 0, isACK = 0, checksum = 4b3e, Zxxxxxxxxxxxxxxxxxxx
+Checksum error at A: seq = 13, ack = 0, isACK = 0, checksum = 4b3e, Zxxxxxxxxxxxxxxxxxxx
+Nack sent from A: seq = 13, ack = -1, isACK = 1, checksum = 9b67, ???j??m?
+          TOLAYER3: packet being corrupted
+
+EVENT time: 257.056641,  type: 1, fromlayer5  entity: 0
+Sent from A: seq = 12, ack = 0, isACK = 0, checksum = 3226, aaaaaaaaaaaaaaaaaaaa
+
+EVENT time: 258.363342,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 8, ack = -1, isACK = 1, checksum = 9071, ????
+Nack Received, Resend window from A: seq = 7, ack = 0, isACK = 0, checksum = 736c, tttttttttttttttttttt
+timer started
+Nack Received, Resend window from A: seq = 8, ack = 0, isACK = 0, checksum = 6961, uuuuuuuuuuuuuuuuuuuu
+Nack Received, Resend window from A: seq = 9, ack = 0, isACK = 0, checksum = 554c, wwwwwwwwwwwwwwwwwwww
+Nack Received, Resend window from A: seq = 10, ack = 0, isACK = 0, checksum = 4137, yyyyyyyyyyyyyyyyyyyy
+          TOLAYER3: packet being lost
+Nack Received, Resend window from A: seq = 11, ack = 0, isACK = 0, checksum = 372c, zzzzzzzzzzzzzzzzzzzz
+Nack Received, Resend window from A: seq = 12, ack = 0, isACK = 0, checksum = 3226, aaaaaaaaaaaaaaaaaaaa
+          TOLAYER3: packet being lost
+
+EVENT time: 259.779327,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 6, ack = 0, isACK = 0, checksum = 8781, rrrrrrrrrrrrrrrrrrrr
+Packet already received. Ignore.
+
+EVENT time: 265.733612,  type: 1, fromlayer5  entity: 1
+Sent from B: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+
+EVENT time: 266.270081,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 7, ack = 0, isACK = 0, checksum = 736c, tttttttttttttttttttt
+Packet already received. Ignore.
+
+EVENT time: 268.882507,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+Resend last Aak sent from A: seq = 0, ack = 8, isACK = 1, checksum = fff6, 
+
+EVENT time: 273.596954,  type: 1, fromlayer5  entity: 1
+Sent from B: seq = 15, ack = 0, isACK = 0, checksum = 1e0f, cccccccccccccccccccc
+
+EVENT time: 273.986328,  type: 0, timerinterrupt   entity: 1
+Sent from B: seq = 8, ack = 0, isACK = 0, checksum = b9b1, mmmmmmmmmmmmmmmmmmmm
+timer started
+Sent from B: seq = 9, ack = 0, isACK = 0, checksum = a59c, oooooooooooooooooooo
+Sent from B: seq = 10, ack = 0, isACK = 0, checksum = 9187, qqqqqqqqqqqqqqqqqqqq
+Sent from B: seq = 11, ack = 0, isACK = 0, checksum = 7d72, ssssssssssssssssssss
+Sent from B: seq = 12, ack = 0, isACK = 0, checksum = 5f53, vvvvvvvvvvvvvvvvvvvv
+Sent from B: seq = 13, ack = 0, isACK = 0, checksum = 4b3e, xxxxxxxxxxxxxxxxxxxx
+          TOLAYER3: packet being corrupted
+Sent from B: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+
+EVENT time: 274.349609,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 8, ack = 0, isACK = 0, checksum = 6961, uuuuuuuuuuuuuuuuuuuu
+Accpeted at B: seq = 8, ack = 0, isACK = 0, checksum = 6961, uuuuuuuuuuuuuuuuuuuu
+Ack sent from B: seq = 0, ack = 8, isACK = 1, checksum = fff6, 
+          TOLAYER3: packet being lost
+
+EVENT time: 277.770782,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 15, ack = 0, isACK = 0, checksum = 1e0f, cccccccccccccccccccc
+Resend last Aak sent from A: seq = 0, ack = 8, isACK = 1, checksum = fff6, 
+
+EVENT time: 282.363342,  type: 0, timerinterrupt   entity: 0
+Sent from A: seq = 7, ack = 0, isACK = 0, checksum = 736c, tttttttttttttttttttt
+timer started
+Sent from A: seq = 8, ack = 0, isACK = 0, checksum = 6961, uuuuuuuuuuuuuuuuuuuu
+          TOLAYER3: packet being corrupted
+Sent from A: seq = 9, ack = 0, isACK = 0, checksum = 554c, wwwwwwwwwwwwwwwwwwww
+Sent from A: seq = 10, ack = 0, isACK = 0, checksum = 4137, yyyyyyyyyyyyyyyyyyyy
+Sent from A: seq = 11, ack = 0, isACK = 0, checksum = 372c, zzzzzzzzzzzzzzzzzzzz
+          TOLAYER3: packet being lost
+Sent from A: seq = 12, ack = 0, isACK = 0, checksum = 3226, aaaaaaaaaaaaaaaaaaaa
+
+EVENT time: 282.888855,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 9, ack = 0, isACK = 0, checksum = 554c, Zwwwwwwwwwwwwwwwwwww
+Checksum error at B: seq = 9, ack = 0, isACK = 0, checksum = 554c, Zwwwwwwwwwwwwwwwwwww
+Nack sent from B: seq = 9, ack = -1, isACK = 1, checksum = 9070, ????
+
+EVENT time: 285.935425,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 8, ack = 0, isACK = 0, checksum = b9b1, mmmmmmmmmmmmmmmmmmmm
+Packet already received, igonre.
+
+EVENT time: 289.134888,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 9, ack = 0, isACK = 0, checksum = a59c, oooooooooooooooooooo
+Accpeted at A: seq = 9, ack = 0, isACK = 0, checksum = a59c, oooooooooooooooooooo
+Ack sent from A: seq = 0, ack = 9, isACK = 1, checksum = fff5, 
+          TOLAYER3: packet being lost
+
+EVENT time: 290.311493,  type: 1, fromlayer5  entity: 0
+Sent from A: seq = 13, ack = 0, isACK = 0, checksum = 1407, dddddddddddddddddddd
+
+EVENT time: 292.215271,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 999999, ack = 0, isACK = 0, checksum = 736c, tttttttttttttttttttt
+Checksum error at B: seq = 999999, ack = 0, isACK = 0, checksum = 736c, tttttttttttttttttttt
+Nack sent from B: seq = 999999, ack = -1, isACK = 1, checksum = 5926, ???j??m?
+
+EVENT time: 295.783691,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 10, ack = 0, isACK = 0, checksum = 9187, qqqqqqqqqqqqqqqqqqqq
+Accpeted at A: seq = 10, ack = 0, isACK = 0, checksum = 9187, qqqqqqqqqqqqqqqqqqqq
+Ack sent from A: seq = 0, ack = 10, isACK = 1, checksum = fff4, 
+
+EVENT time: 297.986328,  type: 0, timerinterrupt   entity: 1
+Sent from B: seq = 8, ack = 0, isACK = 0, checksum = b9b1, mmmmmmmmmmmmmmmmmmmm
+timer started
+Sent from B: seq = 9, ack = 0, isACK = 0, checksum = a59c, oooooooooooooooooooo
+Sent from B: seq = 10, ack = 0, isACK = 0, checksum = 9187, qqqqqqqqqqqqqqqqqqqq
+Sent from B: seq = 11, ack = 0, isACK = 0, checksum = 7d72, ssssssssssssssssssss
+Sent from B: seq = 12, ack = 0, isACK = 0, checksum = 5f53, vvvvvvvvvvvvvvvvvvvv
+Sent from B: seq = 13, ack = 0, isACK = 0, checksum = 4b3e, xxxxxxxxxxxxxxxxxxxx
+Sent from B: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+
+EVENT time: 298.317841,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 8, ack = 0, isACK = 0, checksum = 6961, uuuuuuuuuuuuuuuuuuuu
+Packet already received. Ignore.
+
+EVENT time: 299.062073,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 11, ack = 0, isACK = 0, checksum = 7d72, ssssssssssssssssssss
+Accpeted at A: seq = 11, ack = 0, isACK = 0, checksum = 7d72, ssssssssssssssssssss
+Ack sent from A: seq = 0, ack = 11, isACK = 1, checksum = fff3, 
+
+EVENT time: 300.607910,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 9, ack = 0, isACK = 0, checksum = 554c, Zwwwwwwwwwwwwwwwwwww
+Checksum error at B: seq = 9, ack = 0, isACK = 0, checksum = 554c, Zwwwwwwwwwwwwwwwwwww
+Nack sent from B: seq = 9, ack = -1, isACK = 1, checksum = 9070, ????
+          TOLAYER3: packet being lost
+
+EVENT time: 306.363342,  type: 0, timerinterrupt   entity: 0
+Sent from A: seq = 7, ack = 0, isACK = 0, checksum = 736c, tttttttttttttttttttt
+          TOLAYER3: packet being lost
+timer started
+Sent from A: seq = 8, ack = 0, isACK = 0, checksum = 6961, uuuuuuuuuuuuuuuuuuuu
+Sent from A: seq = 9, ack = 0, isACK = 0, checksum = 554c, wwwwwwwwwwwwwwwwwwww
+          TOLAYER3: packet being corrupted
+Sent from A: seq = 10, ack = 0, isACK = 0, checksum = 4137, yyyyyyyyyyyyyyyyyyyy
+Sent from A: seq = 11, ack = 0, isACK = 0, checksum = 372c, zzzzzzzzzzzzzzzzzzzz
+Sent from A: seq = 12, ack = 0, isACK = 0, checksum = 3226, aaaaaaaaaaaaaaaaaaaa
+Sent from A: seq = 13, ack = 0, isACK = 0, checksum = 1407, dddddddddddddddddddd
+          TOLAYER3: packet being corrupted
+
+EVENT time: 306.531036,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 12, ack = 0, isACK = 0, checksum = 5f53, vvvvvvvvvvvvvvvvvvvv
+Accpeted at A: seq = 12, ack = 0, isACK = 0, checksum = 5f53, vvvvvvvvvvvvvvvvvvvv
+Ack sent from A: seq = 0, ack = 12, isACK = 1, checksum = fff2, 
+
+EVENT time: 308.023560,  type: 1, fromlayer5  entity: 0
+Sent from A: seq = 14, ack = 0, isACK = 0, checksum = 9fc, eeeeeeeeeeeeeeeeeeee
+
+EVENT time: 308.573303,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 999999, ack = -1, isACK = 1, checksum = 5926, ???j??m?
+Nack Received, Resent the window from B: seq = 8, ack = 0, isACK = 0, checksum = b9b1, mmmmmmmmmmmmmmmmmmmm
+timer started
+Nack Received, Resent the window from B: seq = 9, ack = 0, isACK = 0, checksum = a59c, oooooooooooooooooooo
+Nack Received, Resent the window from B: seq = 10, ack = 0, isACK = 0, checksum = 9187, qqqqqqqqqqqqqqqqqqqq
+          TOLAYER3: packet being corrupted
+Nack Received, Resent the window from B: seq = 11, ack = 0, isACK = 0, checksum = 7d72, ssssssssssssssssssss
+          TOLAYER3: packet being lost
+Nack Received, Resent the window from B: seq = 12, ack = 0, isACK = 0, checksum = 5f53, vvvvvvvvvvvvvvvvvvvv
+          TOLAYER3: packet being corrupted
+Nack Received, Resent the window from B: seq = 13, ack = 0, isACK = 0, checksum = 4b3e, xxxxxxxxxxxxxxxxxxxx
+Nack Received, Resent the window from B: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+          TOLAYER3: packet being corrupted
+Nack Received, Resent the window from B: seq = 15, ack = 0, isACK = 0, checksum = 1e0f, cccccccccccccccccccc
+          TOLAYER3: packet being lost
+
+EVENT time: 314.248138,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 0, ack = 7, isACK = 1, checksum = fff7, Z
+Corrupted Ack, ignore.
+
+EVENT time: 314.654724,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 13, ack = 999999, isACK = 0, checksum = 4b3e, xxxxxxxxxxxxxxxxxxxx
+Checksum error at A: seq = 13, ack = 999999, isACK = 0, checksum = 4b3e, xxxxxxxxxxxxxxxxxxxx
+Nack sent from A: seq = 13, ack = -1, isACK = 1, checksum = 9b67, ???j??m?
+
+EVENT time: 317.524994,  type: 1, fromlayer5  entity: 1
+window full.
+
+EVENT time: 318.419312,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+Resend last Aak sent from A: seq = 0, ack = 12, isACK = 1, checksum = fff2, 
+
+EVENT time: 318.776550,  type: 1, fromlayer5  entity: 1
+window full.
+
+EVENT time: 319.903870,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 10, ack = 0, isACK = 0, checksum = 4137, yyyyyyyyyyyyyyyyyyyy
+Resend last Ack sent from B: seq = 0, ack = 8, isACK = 1, checksum = fff6, 
+
+EVENT time: 323.340973,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 9, ack = -1, isACK = 1, checksum = 9070, ????
+Nack Received, Resend window from A: seq = 7, ack = 0, isACK = 0, checksum = 736c, tttttttttttttttttttt
+          TOLAYER3: packet being corrupted
+timer started
+Nack Received, Resend window from A: seq = 8, ack = 0, isACK = 0, checksum = 6961, uuuuuuuuuuuuuuuuuuuu
+Nack Received, Resend window from A: seq = 9, ack = 0, isACK = 0, checksum = 554c, wwwwwwwwwwwwwwwwwwww
+          TOLAYER3: packet being corrupted
+Nack Received, Resend window from A: seq = 10, ack = 0, isACK = 0, checksum = 4137, yyyyyyyyyyyyyyyyyyyy
+Nack Received, Resend window from A: seq = 11, ack = 0, isACK = 0, checksum = 372c, zzzzzzzzzzzzzzzzzzzz
+Nack Received, Resend window from A: seq = 12, ack = 0, isACK = 0, checksum = 3226, aaaaaaaaaaaaaaaaaaaa
+          TOLAYER3: packet being lost
+Nack Received, Resend window from A: seq = 13, ack = 0, isACK = 0, checksum = 1407, dddddddddddddddddddd
+Nack Received, Resend window from A: seq = 14, ack = 0, isACK = 0, checksum = 9fc, eeeeeeeeeeeeeeeeeeee
+
+EVENT time: 325.873566,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 7, ack = 0, isACK = 0, checksum = 736c, tttttttttttttttttttt
+Packet already received. Ignore.
+
+EVENT time: 330.875671,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 999999, ack = -1, isACK = 1, checksum = 5926, ???j??m?
+Nack Received, Resend window from A: seq = 7, ack = 0, isACK = 0, checksum = 736c, tttttttttttttttttttt
+timer started
+Nack Received, Resend window from A: seq = 8, ack = 0, isACK = 0, checksum = 6961, uuuuuuuuuuuuuuuuuuuu
+Nack Received, Resend window from A: seq = 9, ack = 0, isACK = 0, checksum = 554c, wwwwwwwwwwwwwwwwwwww
+Nack Received, Resend window from A: seq = 10, ack = 0, isACK = 0, checksum = 4137, yyyyyyyyyyyyyyyyyyyy
+Nack Received, Resend window from A: seq = 11, ack = 0, isACK = 0, checksum = 372c, zzzzzzzzzzzzzzzzzzzz
+Nack Received, Resend window from A: seq = 12, ack = 0, isACK = 0, checksum = 3226, aaaaaaaaaaaaaaaaaaaa
+          TOLAYER3: packet being lost
+Nack Received, Resend window from A: seq = 13, ack = 0, isACK = 0, checksum = 1407, dddddddddddddddddddd
+Nack Received, Resend window from A: seq = 14, ack = 0, isACK = 0, checksum = 9fc, eeeeeeeeeeeeeeeeeeee
+
+EVENT time: 332.573303,  type: 0, timerinterrupt   entity: 1
+Sent from B: seq = 8, ack = 0, isACK = 0, checksum = b9b1, mmmmmmmmmmmmmmmmmmmm
+          TOLAYER3: packet being corrupted
+timer started
+Sent from B: seq = 9, ack = 0, isACK = 0, checksum = a59c, oooooooooooooooooooo
+Sent from B: seq = 10, ack = 0, isACK = 0, checksum = 9187, qqqqqqqqqqqqqqqqqqqq
+Sent from B: seq = 11, ack = 0, isACK = 0, checksum = 7d72, ssssssssssssssssssss
+Sent from B: seq = 12, ack = 0, isACK = 0, checksum = 5f53, vvvvvvvvvvvvvvvvvvvv
+          TOLAYER3: packet being lost
+Sent from B: seq = 13, ack = 0, isACK = 0, checksum = 4b3e, xxxxxxxxxxxxxxxxxxxx
+          TOLAYER3: packet being corrupted
+Sent from B: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+
+EVENT time: 334.077881,  type: 1, fromlayer5  entity: 0
+window full.
+
+EVENT time: 335.868713,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 8, ack = 0, isACK = 0, checksum = 6961, uuuuuuuuuuuuuuuuuuuu
+Packet already received. Ignore.
+
+EVENT time: 337.282959,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 8, ack = 0, isACK = 0, checksum = b9b1, mmmmmmmmmmmmmmmmmmmm
+Packet already received, igonre.
+
+EVENT time: 339.945221,  type: 1, fromlayer5  entity: 1
+window full.
+
+EVENT time: 341.156952,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 999999, ack = 0, isACK = 0, checksum = 554c, wwwwwwwwwwwwwwwwwwww
+Checksum error at B: seq = 999999, ack = 0, isACK = 0, checksum = 554c, wwwwwwwwwwwwwwwwwwww
+Nack sent from B: seq = 999999, ack = -1, isACK = 1, checksum = 6c84, ??Ȑ?
+
+EVENT time: 343.865784,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 9, ack = 0, isACK = 0, checksum = a59c, oooooooooooooooooooo
+Packet already received, igonre.
+
+EVENT time: 347.530792,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 10, ack = 0, isACK = 0, checksum = 9187, qqqqqqqqqqqqqqqqqqqq
+Packet already received, igonre.
+
+EVENT time: 348.478241,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 10, ack = 0, isACK = 0, checksum = 4137, yyyyyyyyyyyyyyyyyyyy
+Resend last Ack sent from B: seq = 0, ack = 8, isACK = 1, checksum = fff6, 
+          TOLAYER3: packet being corrupted
+
+EVENT time: 354.875671,  type: 0, timerinterrupt   entity: 0
+Sent from A: seq = 7, ack = 0, isACK = 0, checksum = 736c, tttttttttttttttttttt
+timer started
+Sent from A: seq = 8, ack = 0, isACK = 0, checksum = 6961, uuuuuuuuuuuuuuuuuuuu
+          TOLAYER3: packet being lost
+Sent from A: seq = 9, ack = 0, isACK = 0, checksum = 554c, wwwwwwwwwwwwwwwwwwww
+          TOLAYER3: packet being corrupted
+Sent from A: seq = 10, ack = 0, isACK = 0, checksum = 4137, yyyyyyyyyyyyyyyyyyyy
+          TOLAYER3: packet being lost
+Sent from A: seq = 11, ack = 0, isACK = 0, checksum = 372c, zzzzzzzzzzzzzzzzzzzz
+Sent from A: seq = 12, ack = 0, isACK = 0, checksum = 3226, aaaaaaaaaaaaaaaaaaaa
+          TOLAYER3: packet being lost
+Sent from A: seq = 13, ack = 0, isACK = 0, checksum = 1407, dddddddddddddddddddd
+Sent from A: seq = 14, ack = 0, isACK = 0, checksum = 9fc, eeeeeeeeeeeeeeeeeeee
+
+EVENT time: 355.036255,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 11, ack = 0, isACK = 0, checksum = 7d72, ssssssssssssssssssss
+Packet already received, igonre.
+
+EVENT time: 355.463989,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 0, ack = 8, isACK = 1, checksum = fff6, Z
+Corrupted Ack, ignore.
+
+EVENT time: 356.573303,  type: 0, timerinterrupt   entity: 1
+Sent from B: seq = 8, ack = 0, isACK = 0, checksum = b9b1, mmmmmmmmmmmmmmmmmmmm
+timer started
+Sent from B: seq = 9, ack = 0, isACK = 0, checksum = a59c, oooooooooooooooooooo
+          TOLAYER3: packet being corrupted
+Sent from B: seq = 10, ack = 0, isACK = 0, checksum = 9187, qqqqqqqqqqqqqqqqqqqq
+          TOLAYER3: packet being corrupted
+Sent from B: seq = 11, ack = 0, isACK = 0, checksum = 7d72, ssssssssssssssssssss
+          TOLAYER3: packet being lost
+Sent from B: seq = 12, ack = 0, isACK = 0, checksum = 5f53, vvvvvvvvvvvvvvvvvvvv
+          TOLAYER3: packet being corrupted
+Sent from B: seq = 13, ack = 0, isACK = 0, checksum = 4b3e, xxxxxxxxxxxxxxxxxxxx
+          TOLAYER3: packet being lost
+Sent from B: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+
+EVENT time: 358.003448,  type: 1, fromlayer5  entity: 0
+window full.
+
+EVENT time: 358.809235,  type: 1, fromlayer5  entity: 0
+window full.
+
+EVENT time: 359.890015,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 12, ack = 0, isACK = 0, checksum = 5f53, vvvvvvvvvvvvvvvvvvvv
+Packet already received, igonre.
+
+EVENT time: 361.574188,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 999999, ack = -1, isACK = 1, checksum = 4e2b, ????
+Nack Received, Resent the window from B: seq = 8, ack = 0, isACK = 0, checksum = b9b1, mmmmmmmmmmmmmmmmmmmm
+timer started
+Nack Received, Resent the window from B: seq = 9, ack = 0, isACK = 0, checksum = a59c, oooooooooooooooooooo
+Nack Received, Resent the window from B: seq = 10, ack = 0, isACK = 0, checksum = 9187, qqqqqqqqqqqqqqqqqqqq
+Nack Received, Resent the window from B: seq = 11, ack = 0, isACK = 0, checksum = 7d72, ssssssssssssssssssss
+Nack Received, Resent the window from B: seq = 12, ack = 0, isACK = 0, checksum = 5f53, vvvvvvvvvvvvvvvvvvvv
+Nack Received, Resent the window from B: seq = 13, ack = 0, isACK = 0, checksum = 4b3e, xxxxxxxxxxxxxxxxxxxx
+Nack Received, Resent the window from B: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+Nack Received, Resent the window from B: seq = 15, ack = 0, isACK = 0, checksum = 1e0f, cccccccccccccccccccc
+
+EVENT time: 364.240479,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 13, ack = 0, isACK = 0, checksum = 4b3e, xxxxxxxxxxxxxxxxxxxx
+Accpeted at A: seq = 13, ack = 0, isACK = 0, checksum = 4b3e, xxxxxxxxxxxxxxxxxxxx
+Ack sent from A: seq = 0, ack = 13, isACK = 1, checksum = fff1, 
+
+EVENT time: 368.136658,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+Accpeted at A: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+Ack sent from A: seq = 0, ack = 14, isACK = 1, checksum = fff0, 
+          TOLAYER3: packet being lost
+
+EVENT time: 369.397797,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 0, ack = 8, isACK = 1, checksum = fff6, 
+Still packets inflight, restart timer
+Sent from buffer: seq = 16, ack = 0, isACK = 0, checksum = ffef, ffffffffffffffffffff
+          TOLAYER3: packet being corrupted
+
+EVENT time: 369.598114,  type: 1, fromlayer5  entity: 0
+window full.
+
+EVENT time: 370.089722,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 8, ack = 0, isACK = 0, checksum = b9b1, mmmmmmmmmmmmmmmmmmmm
+Packet already received, igonre.
+
+EVENT time: 371.154480,  type: 1, fromlayer5  entity: 1
+window full.
+
+EVENT time: 372.619812,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 9, ack = 0, isACK = 0, checksum = a59c, oooooooooooooooooooo
+Packet already received, igonre.
+
+EVENT time: 373.480255,  type: 1, fromlayer5  entity: 0
+window full.
+
+EVENT time: 375.459106,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 11, ack = 0, isACK = 0, checksum = 372c, zzzzzzzzzzzzzzzzzzzz
+Resend last Ack sent from B: seq = 0, ack = 8, isACK = 1, checksum = fff6, 
+          TOLAYER3: packet being corrupted
+
+EVENT time: 376.054230,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 999999, ack = 0, isACK = 0, checksum = 9187, qqqqqqqqqqqqqqqqqqqq
+Checksum error at A: seq = 999999, ack = 0, isACK = 0, checksum = 9187, qqqqqqqqqqqqqqqqqqqq
+Nack sent from A: seq = 999999, ack = -1, isACK = 1, checksum = 7184, ??Đ?
+          TOLAYER3: packet being corrupted
+
+EVENT time: 378.875671,  type: 0, timerinterrupt   entity: 0
+Sent from A: seq = 7, ack = 0, isACK = 0, checksum = 736c, tttttttttttttttttttt
+          TOLAYER3: packet being lost
+timer started
+Sent from A: seq = 8, ack = 0, isACK = 0, checksum = 6961, uuuuuuuuuuuuuuuuuuuu
+          TOLAYER3: packet being lost
+Sent from A: seq = 9, ack = 0, isACK = 0, checksum = 554c, wwwwwwwwwwwwwwwwwwww
+Sent from A: seq = 10, ack = 0, isACK = 0, checksum = 4137, yyyyyyyyyyyyyyyyyyyy
+Sent from A: seq = 11, ack = 0, isACK = 0, checksum = 372c, zzzzzzzzzzzzzzzzzzzz
+Sent from A: seq = 12, ack = 0, isACK = 0, checksum = 3226, aaaaaaaaaaaaaaaaaaaa
+          TOLAYER3: packet being corrupted
+Sent from A: seq = 13, ack = 0, isACK = 0, checksum = 1407, dddddddddddddddddddd
+Sent from A: seq = 14, ack = 0, isACK = 0, checksum = 9fc, eeeeeeeeeeeeeeeeeeee
+          TOLAYER3: packet being lost
+
+EVENT time: 383.231140,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 12, ack = 0, isACK = 0, checksum = 5f53, Zvvvvvvvvvvvvvvvvvvv
+Checksum error at A: seq = 12, ack = 0, isACK = 0, checksum = 5f53, Zvvvvvvvvvvvvvvvvvvv
+Nack sent from A: seq = 12, ack = -1, isACK = 1, checksum = 4d54, ???
+          TOLAYER3: packet being lost
+
+EVENT time: 384.184113,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 13, ack = -1, isACK = 1, checksum = 9b67, Z???j??m?
+Corrupted Ack, ignore.
+
+EVENT time: 387.518982,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 13, ack = 0, isACK = 0, checksum = 4b3e, xxxxxxxxxxxxxxxxxxxx
+Packet already received, igonre.
+
+EVENT time: 391.213959,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 12, ack = 0, isACK = 0, checksum = 3226, aaaaaaaaaaaaaaaaaaaa
+Resend last Ack sent from B: seq = 0, ack = 8, isACK = 1, checksum = fff6, 
+          TOLAYER3: packet being corrupted
+
+EVENT time: 393.171417,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 14, ack = 0, isACK = 0, checksum = 281a, Zbbbbbbbbbbbbbbbbbbb
+Checksum error at A: seq = 14, ack = 0, isACK = 0, checksum = 281a, Zbbbbbbbbbbbbbbbbbbb
+Nack sent from A: seq = 14, ack = -1, isACK = 1, checksum = 4d52, ???
+
+EVENT time: 393.240082,  type: 1, fromlayer5  entity: 0
+window full.
+
+EVENT time: 393.397797,  type: 0, timerinterrupt   entity: 1
+Sent from B: seq = 9, ack = 0, isACK = 0, checksum = a59c, oooooooooooooooooooo
+timer started
+Sent from B: seq = 10, ack = 0, isACK = 0, checksum = 9187, qqqqqqqqqqqqqqqqqqqq
+          TOLAYER3: packet being lost
+Sent from B: seq = 11, ack = 0, isACK = 0, checksum = 7d72, ssssssssssssssssssss
+Sent from B: seq = 12, ack = 0, isACK = 0, checksum = 5f53, vvvvvvvvvvvvvvvvvvvv
+          TOLAYER3: packet being corrupted
+Sent from B: seq = 13, ack = 0, isACK = 0, checksum = 4b3e, xxxxxxxxxxxxxxxxxxxx
+Sent from B: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+Sent from B: seq = 15, ack = 0, isACK = 0, checksum = 1e0f, cccccccccccccccccccc
+          TOLAYER3: packet being corrupted
+
+EVENT time: 398.039886,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 7, ack = 0, isACK = 0, checksum = 736c, tttttttttttttttttttt
+Packet already received. Ignore.
+
+EVENT time: 399.947754,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 0, ack = 8, isACK = 1, checksum = fff6, 
+Still packets inflight, restart timer
+Sent from buffer: seq = 15, ack = 0, isACK = 0, checksum = ebdc, hhhhhhhhhhhhhhhhhhhh
+Sent from buffer: seq = 16, ack = 0, isACK = 0, checksum = d7c7, jjjjjjjjjjjjjjjjjjjj
+
+EVENT time: 401.022980,  type: 1, fromlayer5  entity: 0
+window full.
+
+EVENT time: 401.343506,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 8, ack = 999999, isACK = 0, checksum = b9b1, mmmmmmmmmmmmmmmmmmmm
+Checksum error at A: seq = 8, ack = 999999, isACK = 0, checksum = b9b1, mmmmmmmmmmmmmmmmmmmm
+Nack sent from A: seq = 8, ack = -1, isACK = 1, checksum = b1ca, ??Đ?
+          TOLAYER3: packet being corrupted
+
+EVENT time: 403.731079,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 8, ack = 0, isACK = 0, checksum = 6961, uuuuuuuuuuuuuuuuuuuu
+Packet already received. Ignore.
+
+EVENT time: 405.250824,  type: 1, fromlayer5  entity: 1
+window full.
+
+EVENT time: 410.496002,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 9, ack = 0, isACK = 0, checksum = a59c, oooooooooooooooooooo
+Packet already received, igonre.
+
+EVENT time: 411.604431,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 9, ack = 0, isACK = 0, checksum = 554c, wwwwwwwwwwwwwwwwwwww
+Accpeted at B: seq = 9, ack = 0, isACK = 0, checksum = 554c, wwwwwwwwwwwwwwwwwwww
+Ack sent from B: seq = 0, ack = 9, isACK = 1, checksum = fff5, 
+
+EVENT time: 417.397797,  type: 0, timerinterrupt   entity: 1
+Sent from B: seq = 9, ack = 0, isACK = 0, checksum = a59c, oooooooooooooooooooo
+timer started
+Sent from B: seq = 10, ack = 0, isACK = 0, checksum = 9187, qqqqqqqqqqqqqqqqqqqq
+Sent from B: seq = 11, ack = 0, isACK = 0, checksum = 7d72, ssssssssssssssssssss
+          TOLAYER3: packet being lost
+Sent from B: seq = 12, ack = 0, isACK = 0, checksum = 5f53, vvvvvvvvvvvvvvvvvvvv
+Sent from B: seq = 13, ack = 0, isACK = 0, checksum = 4b3e, xxxxxxxxxxxxxxxxxxxx
+Sent from B: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+Sent from B: seq = 15, ack = 0, isACK = 0, checksum = 1e0f, cccccccccccccccccccc
+
+EVENT time: 420.447113,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 10, ack = 0, isACK = 0, checksum = 9187, qqqqqqqqqqqqqqqqqqqq
+Packet already received, igonre.
+
+EVENT time: 421.574097,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 11, ack = 0, isACK = 0, checksum = 372c, zzzzzzzzzzzzzzzzzzzz
+Resend last Ack sent from B: seq = 0, ack = 9, isACK = 1, checksum = fff5, 
+          TOLAYER3: packet being lost
+
+EVENT time: 421.732300,  type: 1, fromlayer5  entity: 0
+window full.
+
+EVENT time: 423.947754,  type: 0, timerinterrupt   entity: 0
+Sent from A: seq = 9, ack = 0, isACK = 0, checksum = 554c, wwwwwwwwwwwwwwwwwwww
+          TOLAYER3: packet being lost
+timer started
+Sent from A: seq = 10, ack = 0, isACK = 0, checksum = 4137, yyyyyyyyyyyyyyyyyyyy
+          TOLAYER3: packet being lost
+Sent from A: seq = 11, ack = 0, isACK = 0, checksum = 372c, zzzzzzzzzzzzzzzzzzzz
+          TOLAYER3: packet being lost
+Sent from A: seq = 12, ack = 0, isACK = 0, checksum = 3226, aaaaaaaaaaaaaaaaaaaa
+          TOLAYER3: packet being lost
+Sent from A: seq = 13, ack = 0, isACK = 0, checksum = 1407, dddddddddddddddddddd
+Sent from A: seq = 14, ack = 0, isACK = 0, checksum = 9fc, eeeeeeeeeeeeeeeeeeee
+Sent from A: seq = 15, ack = 0, isACK = 0, checksum = ebdc, hhhhhhhhhhhhhhhhhhhh
+Sent from A: seq = 16, ack = 0, isACK = 0, checksum = d7c7, jjjjjjjjjjjjjjjjjjjj
+
+EVENT time: 424.854797,  type: 1, fromlayer5  entity: 1
+window full.
+
+EVENT time: 425.802185,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 11, ack = 0, isACK = 0, checksum = 7d72, ssssssssssssssssssss
+Packet already received, igonre.
+
+EVENT time: 431.235291,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 0, ack = 8, isACK = 1, checksum = fff6, 
+Still packets inflight, restart timer
+
+EVENT time: 432.594086,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 13, ack = 0, isACK = 0, checksum = 4b3e, Zxxxxxxxxxxxxxxxxxxx
+Checksum error at A: seq = 13, ack = 0, isACK = 0, checksum = 4b3e, Zxxxxxxxxxxxxxxxxxxx
+Nack sent from A: seq = 13, ack = -1, isACK = 1, checksum = adc5, ??Ȑ?
+
+EVENT time: 434.833679,  type: 1, fromlayer5  entity: 1
+window full.
+
+EVENT time: 436.341034,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+Packet already received, igonre.
+
+EVENT time: 440.924286,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 0, ack = 8, isACK = 1, checksum = fff6, 
+Still packets inflight, restart timer
+
+EVENT time: 442.742279,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 999999, ack = -1, isACK = 1, checksum = 6c84, ??Ȑ?
+Nack Received, Resend window from A: seq = 9, ack = 0, isACK = 0, checksum = 554c, wwwwwwwwwwwwwwwwwwww
+          TOLAYER3: packet being corrupted
+timer started
+Nack Received, Resend window from A: seq = 10, ack = 0, isACK = 0, checksum = 4137, yyyyyyyyyyyyyyyyyyyy
+Nack Received, Resend window from A: seq = 11, ack = 0, isACK = 0, checksum = 372c, zzzzzzzzzzzzzzzzzzzz
+Nack Received, Resend window from A: seq = 12, ack = 0, isACK = 0, checksum = 3226, aaaaaaaaaaaaaaaaaaaa
+Nack Received, Resend window from A: seq = 13, ack = 0, isACK = 0, checksum = 1407, dddddddddddddddddddd
+Nack Received, Resend window from A: seq = 14, ack = 0, isACK = 0, checksum = 9fc, eeeeeeeeeeeeeeeeeeee
+Nack Received, Resend window from A: seq = 15, ack = 0, isACK = 0, checksum = ebdc, hhhhhhhhhhhhhhhhhhhh
+Nack Received, Resend window from A: seq = 16, ack = 0, isACK = 0, checksum = d7c7, jjjjjjjjjjjjjjjjjjjj
+          TOLAYER3: packet being corrupted
+
+EVENT time: 444.683136,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 7, ack = 0, isACK = 0, checksum = 736c, tttttttttttttttttttt
+Packet already received. Ignore.
+
+EVENT time: 445.953583,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 999999, ack = 0, isACK = 0, checksum = 6961, uuuuuuuuuuuuuuuuuuuu
+Checksum error at B: seq = 999999, ack = 0, isACK = 0, checksum = 6961, uuuuuuuuuuuuuuuuuuuu
+Nack sent from B: seq = 999999, ack = -1, isACK = 1, checksum = 6b84, ??Ȑ?
+
+EVENT time: 447.921356,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 9, ack = 0, isACK = 0, checksum = 554c, wwwwwwwwwwwwwwwwwwww
+Packet already received. Ignore.
+
+EVENT time: 451.119263,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 0, ack = 8, isACK = 1, checksum = fff6, Z
+Corrupted Ack, ignore.
+
+EVENT time: 452.806732,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 10, ack = 0, isACK = 0, checksum = 4137, yyyyyyyyyyyyyyyyyyyy
+Accpeted at B: seq = 10, ack = 0, isACK = 0, checksum = 4137, yyyyyyyyyyyyyyyyyyyy
+Ack sent from B: seq = 0, ack = 10, isACK = 1, checksum = fff4, 
+
+EVENT time: 452.881683,  type: 1, fromlayer5  entity: 1
+window full.
+
+EVENT time: 454.190430,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 8, ack = 0, isACK = 0, checksum = b9b1, mmmmmmmmmmmmmmmmmmmm
+Packet already received, igonre.
+
+EVENT time: 455.454468,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 9, ack = 0, isACK = 0, checksum = a59c, Zooooooooooooooooooo
+Checksum error at A: seq = 9, ack = 0, isACK = 0, checksum = a59c, Zooooooooooooooooooo
+Nack sent from A: seq = 9, ack = -1, isACK = 1, checksum = adc9, ??Ȑ?
+
+EVENT time: 458.751801,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 12, ack = 0, isACK = 0, checksum = 3226, aaaaaaaaaaaaaaaaaaaa
+Resend last Ack sent from B: seq = 0, ack = 10, isACK = 1, checksum = fff4, 
+          TOLAYER3: packet being corrupted
+
+EVENT time: 460.361633,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 13, ack = 0, isACK = 0, checksum = 1407, dddddddddddddddddddd
+Resend last Ack sent from B: seq = 0, ack = 10, isACK = 1, checksum = fff4, 
+
+EVENT time: 460.515808,  type: 1, fromlayer5  entity: 0
+window full.
+
+EVENT time: 463.915527,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 10, ack = 0, isACK = 0, checksum = 9187, Zqqqqqqqqqqqqqqqqqqq
+Checksum error at A: seq = 10, ack = 0, isACK = 0, checksum = 9187, Zqqqqqqqqqqqqqqqqqqq
+Nack sent from A: seq = 10, ack = -1, isACK = 1, checksum = b1c8, ??Đ?
+
+EVENT time: 464.455963,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 0, ack = 10, isACK = 1, checksum = fff4, 
+Still packets inflight, restart timer
+Sent from buffer: seq = 17, ack = 0, isACK = 0, checksum = f5e4, gggggggggggggggggggg
+          TOLAYER3: packet being lost
+Sent from buffer: seq = 18, ack = 0, isACK = 0, checksum = e1cf, iiiiiiiiiiiiiiiiiiii
+          TOLAYER3: packet being lost
+
+EVENT time: 465.922821,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 12, ack = 0, isACK = 0, checksum = 5f53, Zvvvvvvvvvvvvvvvvvvv
+Checksum error at A: seq = 12, ack = 0, isACK = 0, checksum = 5f53, Zvvvvvvvvvvvvvvvvvvv
+Nack sent from A: seq = 12, ack = -1, isACK = 1, checksum = b1c6, ??Đ?
+
+EVENT time: 466.742279,  type: 0, timerinterrupt   entity: 0
+Sent from A: seq = 9, ack = 0, isACK = 0, checksum = 554c, wwwwwwwwwwwwwwwwwwww
+timer started
+Sent from A: seq = 10, ack = 0, isACK = 0, checksum = 4137, yyyyyyyyyyyyyyyyyyyy
+Sent from A: seq = 11, ack = 0, isACK = 0, checksum = 372c, zzzzzzzzzzzzzzzzzzzz
+Sent from A: seq = 12, ack = 0, isACK = 0, checksum = 3226, aaaaaaaaaaaaaaaaaaaa
+Sent from A: seq = 13, ack = 0, isACK = 0, checksum = 1407, dddddddddddddddddddd
+Sent from A: seq = 14, ack = 0, isACK = 0, checksum = 9fc, eeeeeeeeeeeeeeeeeeee
+Sent from A: seq = 15, ack = 0, isACK = 0, checksum = ebdc, hhhhhhhhhhhhhhhhhhhh
+Sent from A: seq = 16, ack = 0, isACK = 0, checksum = d7c7, jjjjjjjjjjjjjjjjjjjj
+
+EVENT time: 469.810181,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+Packet already received, igonre.
+
+EVENT time: 471.324951,  type: 1, fromlayer5  entity: 0
+window full.
+
+EVENT time: 472.337585,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 8, ack = 0, isACK = 0, checksum = b9b1, mmmmmmmmmmmmmmmmmmmm
+Packet already received, igonre.
+
+EVENT time: 474.385468,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 0, ack = 11, isACK = 1, checksum = fff3, 
+Still packets inflight, restart timer
+Sent from buffer: seq = 19, ack = 0, isACK = 0, checksum = b9a6, mmmmmmmmmmmmmmmmmmmm
+
+EVENT time: 475.913269,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 8, ack = 0, isACK = 0, checksum = 6961, uuuuuuuuuuuuuuuuuuuu
+Packet already received. Ignore.
+
+EVENT time: 480.309937,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 9, ack = 0, isACK = 0, checksum = a59c, oooooooooooooooooooo
+Packet already received, igonre.
+
+EVENT time: 480.641968,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 9, ack = 0, isACK = 999999, checksum = 554c, wwwwwwwwwwwwwwwwwwww
+Checksum error at B: seq = 9, ack = 0, isACK = 999999, checksum = 554c, wwwwwwwwwwwwwwwwwwww
+Nack sent from B: seq = 9, ack = -1, isACK = 1, checksum = b1c9, ??Đ?
+
+EVENT time: 482.760895,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 10, ack = 0, isACK = 0, checksum = 9187, qqqqqqqqqqqqqqqqqqqq
+Packet already received, igonre.
+
+EVENT time: 485.343170,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 10, ack = 0, isACK = 0, checksum = 4137, yyyyyyyyyyyyyyyyyyyy
+Packet already received. Ignore.
+
+EVENT time: 488.047729,  type: 1, fromlayer5  entity: 1
+window full.
+
+EVENT time: 488.190430,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 11, ack = 0, isACK = 0, checksum = 372c, zzzzzzzzzzzzzzzzzzzz
+Accpeted at B: seq = 11, ack = 0, isACK = 0, checksum = 372c, zzzzzzzzzzzzzzzzzzzz
+Ack sent from B: seq = 0, ack = 11, isACK = 1, checksum = fff3, 
+
+EVENT time: 489.293823,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 11, ack = 0, isACK = 0, checksum = 7d72, ssssssssssssssssssss
+Packet already received, igonre.
+
+EVENT time: 490.742279,  type: 0, timerinterrupt   entity: 0
+Sent from A: seq = 9, ack = 0, isACK = 0, checksum = 554c, wwwwwwwwwwwwwwwwwwww
+timer started
+Sent from A: seq = 10, ack = 0, isACK = 0, checksum = 4137, yyyyyyyyyyyyyyyyyyyy
+          TOLAYER3: packet being corrupted
+Sent from A: seq = 11, ack = 0, isACK = 0, checksum = 372c, zzzzzzzzzzzzzzzzzzzz
+          TOLAYER3: packet being lost
+Sent from A: seq = 12, ack = 0, isACK = 0, checksum = 3226, aaaaaaaaaaaaaaaaaaaa
+          TOLAYER3: packet being corrupted
+Sent from A: seq = 13, ack = 0, isACK = 0, checksum = 1407, dddddddddddddddddddd
+          TOLAYER3: packet being lost
+Sent from A: seq = 14, ack = 0, isACK = 0, checksum = 9fc, eeeeeeeeeeeeeeeeeeee
+          TOLAYER3: packet being corrupted
+Sent from A: seq = 15, ack = 0, isACK = 0, checksum = ebdc, hhhhhhhhhhhhhhhhhhhh
+Sent from A: seq = 16, ack = 0, isACK = 0, checksum = d7c7, jjjjjjjjjjjjjjjjjjjj
+          TOLAYER3: packet being lost
+
+EVENT time: 491.980530,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 12, ack = 0, isACK = 0, checksum = 3226, aaaaaaaaaaaaaaaaaaaa
+Accpeted at B: seq = 12, ack = 0, isACK = 0, checksum = 3226, aaaaaaaaaaaaaaaaaaaa
+Ack sent from B: seq = 0, ack = 12, isACK = 1, checksum = fff2, 
+          TOLAYER3: packet being lost
+
+EVENT time: 494.679688,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 13, ack = 0, isACK = 0, checksum = 1407, Zddddddddddddddddddd
+Checksum error at B: seq = 13, ack = 0, isACK = 0, checksum = 1407, Zddddddddddddddddddd
+Nack sent from B: seq = 13, ack = -1, isACK = 1, checksum = 4d53, ???
+
+EVENT time: 496.374359,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 0, ack = 12, isACK = 1, checksum = fff2, 
+Still packets inflight, restart timer
+Sent from buffer: seq = 20, ack = 0, isACK = 0, checksum = 917d, qqqqqqqqqqqqqqqqqqqq
+
+EVENT time: 498.444977,  type: 1, fromlayer5  entity: 0
+window full.
+
+EVENT time: 498.733337,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 12, ack = 0, isACK = 0, checksum = 5f53, vvvvvvvvvvvvvvvvvvvv
+Packet already received, igonre.
+
+EVENT time: 499.906952,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 14, ack = 0, isACK = 0, checksum = 9fc, eeeeeeeeeeeeeeeeeeee
+Resend last Ack sent from B: seq = 0, ack = 12, isACK = 1, checksum = fff2, 
+
+EVENT time: 507.289429,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 13, ack = 0, isACK = 0, checksum = 4b3e, xxxxxxxxxxxxxxxxxxxx
+Packet already received, igonre.
+
+EVENT time: 508.021332,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 13, ack = -1, isACK = 1, checksum = 9b67, ???j??m?
+Nack Received, Resent the window from B: seq = 13, ack = 0, isACK = 0, checksum = 4b3e, xxxxxxxxxxxxxxxxxxxx
+          TOLAYER3: packet being corrupted
+timer started
+Nack Received, Resent the window from B: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+          TOLAYER3: packet being lost
+Nack Received, Resent the window from B: seq = 15, ack = 0, isACK = 0, checksum = 1e0f, cccccccccccccccccccc
+Nack Received, Resent the window from B: seq = 16, ack = 0, isACK = 0, checksum = ffef, ffffffffffffffffffff
+Nack Received, Resent the window from B: seq = 17, ack = 0, isACK = 0, checksum = f5e4, gggggggggggggggggggg
+Nack Received, Resent the window from B: seq = 18, ack = 0, isACK = 0, checksum = e1cf, iiiiiiiiiiiiiiiiiiii
+Nack Received, Resent the window from B: seq = 19, ack = 0, isACK = 0, checksum = b9a6, mmmmmmmmmmmmmmmmmmmm
+Nack Received, Resent the window from B: seq = 20, ack = 0, isACK = 0, checksum = 917d, qqqqqqqqqqqqqqqqqqqq
+
+EVENT time: 512.071777,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+Packet already received, igonre.
+
+EVENT time: 512.846313,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 0, ack = 12, isACK = 1, checksum = fff2, 
+Still packets inflight, restart timer
+
+EVENT time: 513.292175,  type: 1, fromlayer5  entity: 1
+window full.
+
+EVENT time: 514.742310,  type: 0, timerinterrupt   entity: 0
+Sent from A: seq = 9, ack = 0, isACK = 0, checksum = 554c, wwwwwwwwwwwwwwwwwwww
+          TOLAYER3: packet being lost
+timer started
+Sent from A: seq = 10, ack = 0, isACK = 0, checksum = 4137, yyyyyyyyyyyyyyyyyyyy
+          TOLAYER3: packet being corrupted
+Sent from A: seq = 11, ack = 0, isACK = 0, checksum = 372c, zzzzzzzzzzzzzzzzzzzz
+          TOLAYER3: packet being lost
+Sent from A: seq = 12, ack = 0, isACK = 0, checksum = 3226, aaaaaaaaaaaaaaaaaaaa
+Sent from A: seq = 13, ack = 0, isACK = 0, checksum = 1407, dddddddddddddddddddd
+Sent from A: seq = 14, ack = 0, isACK = 0, checksum = 9fc, eeeeeeeeeeeeeeeeeeee
+          TOLAYER3: packet being lost
+Sent from A: seq = 15, ack = 0, isACK = 0, checksum = ebdc, hhhhhhhhhhhhhhhhhhhh
+Sent from A: seq = 16, ack = 0, isACK = 0, checksum = d7c7, jjjjjjjjjjjjjjjjjjjj
+          TOLAYER3: packet being corrupted
+
+EVENT time: 514.851379,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 15, ack = 0, isACK = 0, checksum = 1e0f, cccccccccccccccccccc
+Accpeted at A: seq = 15, ack = 0, isACK = 0, checksum = 1e0f, cccccccccccccccccccc
+Ack sent from A: seq = 0, ack = 15, isACK = 1, checksum = ffef, 
+          TOLAYER3: packet being lost
+
+EVENT time: 516.989624,  type: 1, fromlayer5  entity: 0
+window full.
+
+EVENT time: 517.874939,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 7, ack = 0, isACK = 0, checksum = 736c, Zttttttttttttttttttt
+Checksum error at B: seq = 7, ack = 0, isACK = 0, checksum = 736c, Zttttttttttttttttttt
+Nack sent from B: seq = 7, ack = -1, isACK = 1, checksum = b1cb, ??Đ?
+          TOLAYER3: packet being corrupted
+
+EVENT time: 518.474243,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 16, ack = 0, isACK = 0, checksum = ffef, Zfffffffffffffffffff
+Checksum error at A: seq = 16, ack = 0, isACK = 0, checksum = ffef, Zfffffffffffffffffff
+Nack sent from A: seq = 16, ack = -1, isACK = 1, checksum = b1c2, ??Đ?
+          TOLAYER3: packet being lost
+
+EVENT time: 519.014465,  type: 1, fromlayer5  entity: 1
+window full.
+
+EVENT time: 519.963684,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 0, ack = 8, isACK = 1, checksum = fff6, Z
+Corrupted Ack, ignore.
+
+EVENT time: 524.327637,  type: 1, fromlayer5  entity: 1
+window full.
+
+EVENT time: 527.030640,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 8, ack = 0, isACK = 0, checksum = 6961, uuuuuuuuuuuuuuuuuuuu
+Packet already received. Ignore.
+
+EVENT time: 527.911682,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 0, ack = 8, isACK = 1, checksum = fff6, Z
+Corrupted Ack, ignore.
+
+EVENT time: 533.410217,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 9, ack = 0, isACK = 0, checksum = 554c, Zwwwwwwwwwwwwwwwwwww
+Checksum error at B: seq = 9, ack = 0, isACK = 0, checksum = 554c, Zwwwwwwwwwwwwwwwwwww
+Nack sent from B: seq = 9, ack = -1, isACK = 1, checksum = a9c9, ??Ȑ?
+          TOLAYER3: packet being corrupted
+
+EVENT time: 536.846313,  type: 0, timerinterrupt   entity: 1
+Sent from B: seq = 13, ack = 0, isACK = 0, checksum = 4b3e, xxxxxxxxxxxxxxxxxxxx
+timer started
+Sent from B: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+Sent from B: seq = 15, ack = 0, isACK = 0, checksum = 1e0f, cccccccccccccccccccc
+Sent from B: seq = 16, ack = 0, isACK = 0, checksum = ffef, ffffffffffffffffffff
+Sent from B: seq = 17, ack = 0, isACK = 0, checksum = f5e4, gggggggggggggggggggg
+Sent from B: seq = 18, ack = 0, isACK = 0, checksum = e1cf, iiiiiiiiiiiiiiiiiiii
+Sent from B: seq = 19, ack = 0, isACK = 0, checksum = b9a6, mmmmmmmmmmmmmmmmmmmm
+          TOLAYER3: packet being lost
+
+EVENT time: 537.057922,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 9, ack = 0, isACK = 0, checksum = a59c, oooooooooooooooooooo
+Packet already received, igonre.
+
+EVENT time: 537.773987,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 10, ack = 0, isACK = 0, checksum = 4137, yyyyyyyyyyyyyyyyyyyy
+Packet already received. Ignore.
+
+EVENT time: 538.742310,  type: 0, timerinterrupt   entity: 0
+Sent from A: seq = 9, ack = 0, isACK = 0, checksum = 554c, wwwwwwwwwwwwwwwwwwww
+timer started
+Sent from A: seq = 10, ack = 0, isACK = 0, checksum = 4137, yyyyyyyyyyyyyyyyyyyy
+Sent from A: seq = 11, ack = 0, isACK = 0, checksum = 372c, zzzzzzzzzzzzzzzzzzzz
+Sent from A: seq = 12, ack = 0, isACK = 0, checksum = 3226, aaaaaaaaaaaaaaaaaaaa
+          TOLAYER3: packet being lost
+Sent from A: seq = 13, ack = 0, isACK = 0, checksum = 1407, dddddddddddddddddddd
+Sent from A: seq = 14, ack = 0, isACK = 0, checksum = 9fc, eeeeeeeeeeeeeeeeeeee
+Sent from A: seq = 15, ack = 0, isACK = 0, checksum = ebdc, hhhhhhhhhhhhhhhhhhhh
+          TOLAYER3: packet being lost
+Sent from A: seq = 16, ack = 0, isACK = 0, checksum = d7c7, jjjjjjjjjjjjjjjjjjjj
+          TOLAYER3: packet being corrupted
+
+EVENT time: 539.772461,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 11, ack = 0, isACK = 0, checksum = 7d72, ssssssssssssssssssss
+Packet already received, igonre.
+
+EVENT time: 543.660278,  type: 1, fromlayer5  entity: 0
+window full.
+
+EVENT time: 544.647095,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 11, ack = 0, isACK = 0, checksum = 372c, zzzzzzzzzzzzzzzzzzzz
+Packet already received. Ignore.
+
+EVENT time: 545.743225,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 13, ack = 0, isACK = 0, checksum = 1407, dddddddddddddddddddd
+Accpeted at B: seq = 13, ack = 0, isACK = 0, checksum = 1407, dddddddddddddddddddd
+Ack sent from B: seq = 0, ack = 13, isACK = 1, checksum = fff1, 
+
+EVENT time: 547.300659,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 14, ack = 0, isACK = 0, checksum = 9fc, eeeeeeeeeeeeeeeeeeee
+Accpeted at B: seq = 14, ack = 0, isACK = 0, checksum = 9fc, eeeeeeeeeeeeeeeeeeee
+Ack sent from B: seq = 0, ack = 14, isACK = 1, checksum = fff0, 
+
+EVENT time: 548.224915,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 12, ack = 0, isACK = 0, checksum = 5f53, Zvvvvvvvvvvvvvvvvvvv
+Checksum error at A: seq = 12, ack = 0, isACK = 0, checksum = 5f53, Zvvvvvvvvvvvvvvvvvvv
+Nack sent from A: seq = 12, ack = -1, isACK = 1, checksum = b1c6, ??Đ?
+
+EVENT time: 549.485596,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 13, ack = 0, isACK = 0, checksum = 4b3e, xxxxxxxxxxxxxxxxxxxx
+Packet already received, igonre.
+
+EVENT time: 550.278992,  type: 1, fromlayer5  entity: 0
+window full.
+
+EVENT time: 550.698547,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 7, ack = 0, isACK = 0, checksum = 736c, tttttttttttttttttttt
+Packet already received. Ignore.
+
+EVENT time: 551.935120,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 8, ack = 0, isACK = 0, checksum = 6961, uuuuuuuuuuuuuuuuuuuu
+Packet already received. Ignore.
+
+EVENT time: 554.240051,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+Packet already received, igonre.
+
+EVENT time: 556.134338,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 9, ack = 0, isACK = 0, checksum = 554c, wwwwwwwwwwwwwwwwwwww
+Packet already received. Ignore.
+
+EVENT time: 557.210144,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 10, ack = 0, isACK = 0, checksum = 4137, yyyyyyyyyyyyyyyyyyyy
+Packet already received. Ignore.
+
+EVENT time: 560.846313,  type: 0, timerinterrupt   entity: 1
+Sent from B: seq = 13, ack = 0, isACK = 0, checksum = 4b3e, xxxxxxxxxxxxxxxxxxxx
+          TOLAYER3: packet being lost
+timer started
+Sent from B: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+Sent from B: seq = 15, ack = 0, isACK = 0, checksum = 1e0f, cccccccccccccccccccc
+          TOLAYER3: packet being corrupted
+Sent from B: seq = 16, ack = 0, isACK = 0, checksum = ffef, ffffffffffffffffffff
+          TOLAYER3: packet being corrupted
+Sent from B: seq = 17, ack = 0, isACK = 0, checksum = f5e4, gggggggggggggggggggg
+          TOLAYER3: packet being corrupted
+Sent from B: seq = 18, ack = 0, isACK = 0, checksum = e1cf, iiiiiiiiiiiiiiiiiiii
+Sent from B: seq = 19, ack = 0, isACK = 0, checksum = b9a6, mmmmmmmmmmmmmmmmmmmm
+          TOLAYER3: packet being lost
+
+EVENT time: 562.742310,  type: 0, timerinterrupt   entity: 0
+Sent from A: seq = 9, ack = 0, isACK = 0, checksum = 554c, wwwwwwwwwwwwwwwwwwww
+timer started
+Sent from A: seq = 10, ack = 0, isACK = 0, checksum = 4137, yyyyyyyyyyyyyyyyyyyy
+Sent from A: seq = 11, ack = 0, isACK = 0, checksum = 372c, zzzzzzzzzzzzzzzzzzzz
+          TOLAYER3: packet being lost
+Sent from A: seq = 12, ack = 0, isACK = 0, checksum = 3226, aaaaaaaaaaaaaaaaaaaa
+Sent from A: seq = 13, ack = 0, isACK = 0, checksum = 1407, dddddddddddddddddddd
+Sent from A: seq = 14, ack = 0, isACK = 0, checksum = 9fc, eeeeeeeeeeeeeeeeeeee
+          TOLAYER3: packet being corrupted
+Sent from A: seq = 15, ack = 0, isACK = 0, checksum = ebdc, hhhhhhhhhhhhhhhhhhhh
+          TOLAYER3: packet being corrupted
+Sent from A: seq = 16, ack = 0, isACK = 0, checksum = d7c7, jjjjjjjjjjjjjjjjjjjj
+          TOLAYER3: packet being lost
+
+EVENT time: 563.196960,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 15, ack = 0, isACK = 0, checksum = 1e0f, Zccccccccccccccccccc
+Checksum error at A: seq = 15, ack = 0, isACK = 0, checksum = 1e0f, Zccccccccccccccccccc
+Nack sent from A: seq = 15, ack = -1, isACK = 1, checksum = 4d51, ???
+
+EVENT time: 563.806396,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 11, ack = 0, isACK = 0, checksum = 372c, zzzzzzzzzzzzzzzzzzzz
+Packet already received. Ignore.
+
+EVENT time: 565.953979,  type: 1, fromlayer5  entity: 0
+window full.
+
+EVENT time: 568.263367,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 0, ack = 9, isACK = 1, checksum = fff5, 
+Still packets inflight, restart timer
+Sent from buffer: seq = 17, ack = 0, isACK = 0, checksum = cdbc, kkkkkkkkkkkkkkkkkkkk
+
+EVENT time: 568.964661,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 13, ack = 0, isACK = 0, checksum = 1407, dddddddddddddddddddd
+Packet already received. Ignore.
+
+EVENT time: 570.165955,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 14, ack = 0, isACK = 0, checksum = 9fc, eeeeeeeeeeeeeeeeeeee
+Packet already received. Ignore.
+
+EVENT time: 571.194519,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 9, ack = 0, isACK = 0, checksum = a59c, oooooooooooooooooooo
+Packet already received, igonre.
+
+EVENT time: 572.286987,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 10, ack = 0, isACK = 0, checksum = 9187, qqqqqqqqqqqqqqqqqqqq
+Packet already received, igonre.
+
+EVENT time: 573.707703,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 12, ack = 0, isACK = 0, checksum = 5f53, vvvvvvvvvvvvvvvvvvvv
+Packet already received, igonre.
+
+EVENT time: 573.781067,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 7, ack = 0, isACK = 0, checksum = 736c, tttttttttttttttttttt
+Packet already received. Ignore.
+
+EVENT time: 575.678955,  type: 1, fromlayer5  entity: 0
+window full.
+
+EVENT time: 576.497864,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 9, ack = 0, isACK = 0, checksum = 554c, Zwwwwwwwwwwwwwwwwwww
+Checksum error at B: seq = 9, ack = 0, isACK = 0, checksum = 554c, Zwwwwwwwwwwwwwwwwwww
+Nack sent from B: seq = 9, ack = -1, isACK = 1, checksum = b0c9, ??Đ?
+          TOLAYER3: packet being lost
+
+EVENT time: 577.571106,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 13, ack = 0, isACK = 0, checksum = 4b3e, xxxxxxxxxxxxxxxxxxxx
+Packet already received, igonre.
+
+EVENT time: 579.868591,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 11, ack = 0, isACK = 0, checksum = 372c, zzzzzzzzzzzzzzzzzzzz
+Packet already received. Ignore.
+
+EVENT time: 580.045105,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+Packet already received, igonre.
+
+EVENT time: 584.846313,  type: 0, timerinterrupt   entity: 1
+Sent from B: seq = 13, ack = 0, isACK = 0, checksum = 4b3e, xxxxxxxxxxxxxxxxxxxx
+          TOLAYER3: packet being corrupted
+timer started
+Sent from B: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+          TOLAYER3: packet being corrupted
+Sent from B: seq = 15, ack = 0, isACK = 0, checksum = 1e0f, cccccccccccccccccccc
+          TOLAYER3: packet being lost
+Sent from B: seq = 16, ack = 0, isACK = 0, checksum = ffef, ffffffffffffffffffff
+Sent from B: seq = 17, ack = 0, isACK = 0, checksum = f5e4, gggggggggggggggggggg
+Sent from B: seq = 18, ack = 0, isACK = 0, checksum = e1cf, iiiiiiiiiiiiiiiiiiii
+          TOLAYER3: packet being corrupted
+Sent from B: seq = 19, ack = 0, isACK = 0, checksum = b9a6, mmmmmmmmmmmmmmmmmmmm
+
+EVENT time: 586.830200,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 15, ack = 0, isACK = 0, checksum = 1e0f, cccccccccccccccccccc
+Packet already received, igonre.
+
+EVENT time: 587.345764,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 13, ack = 0, isACK = 0, checksum = 1407, dddddddddddddddddddd
+Packet already received. Ignore.
+
+EVENT time: 589.200073,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 14, ack = 0, isACK = 0, checksum = 9fc, eeeeeeeeeeeeeeeeeeee
+Packet already received. Ignore.
+
+EVENT time: 591.474304,  type: 1, fromlayer5  entity: 1
+window full.
+
+EVENT time: 592.263367,  type: 0, timerinterrupt   entity: 0
+Sent from A: seq = 10, ack = 0, isACK = 0, checksum = 4137, yyyyyyyyyyyyyyyyyyyy
+timer started
+Sent from A: seq = 11, ack = 0, isACK = 0, checksum = 372c, zzzzzzzzzzzzzzzzzzzz
+          TOLAYER3: packet being corrupted
+Sent from A: seq = 12, ack = 0, isACK = 0, checksum = 3226, aaaaaaaaaaaaaaaaaaaa
+Sent from A: seq = 13, ack = 0, isACK = 0, checksum = 1407, dddddddddddddddddddd
+          TOLAYER3: packet being corrupted
+Sent from A: seq = 14, ack = 0, isACK = 0, checksum = 9fc, eeeeeeeeeeeeeeeeeeee
+Sent from A: seq = 15, ack = 0, isACK = 0, checksum = ebdc, hhhhhhhhhhhhhhhhhhhh
+Sent from A: seq = 16, ack = 0, isACK = 0, checksum = d7c7, jjjjjjjjjjjjjjjjjjjj
+          TOLAYER3: packet being corrupted
+Sent from A: seq = 17, ack = 0, isACK = 0, checksum = cdbc, kkkkkkkkkkkkkkkkkkkk
+
+EVENT time: 595.481384,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 0, ack = 13, isACK = 1, checksum = fff1, 
+Still packets inflight, restart timer
+Sent from buffer: seq = 21, ack = 0, isACK = 0, checksum = 7d68, ssssssssssssssssssss
+          TOLAYER3: packet being corrupted
+
+EVENT time: 595.823792,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 999999, ack = -1, isACK = 1, checksum = 6b84, ??Ȑ?
+Nack Received, Resend window from A: seq = 10, ack = 0, isACK = 0, checksum = 4137, yyyyyyyyyyyyyyyyyyyy
+timer started
+Nack Received, Resend window from A: seq = 11, ack = 0, isACK = 0, checksum = 372c, zzzzzzzzzzzzzzzzzzzz
+Nack Received, Resend window from A: seq = 12, ack = 0, isACK = 0, checksum = 3226, aaaaaaaaaaaaaaaaaaaa
+          TOLAYER3: packet being corrupted
+Nack Received, Resend window from A: seq = 13, ack = 0, isACK = 0, checksum = 1407, dddddddddddddddddddd
+          TOLAYER3: packet being lost
+Nack Received, Resend window from A: seq = 14, ack = 0, isACK = 0, checksum = 9fc, eeeeeeeeeeeeeeeeeeee
+          TOLAYER3: packet being lost
+Nack Received, Resend window from A: seq = 15, ack = 0, isACK = 0, checksum = ebdc, hhhhhhhhhhhhhhhhhhhh
+Nack Received, Resend window from A: seq = 16, ack = 0, isACK = 0, checksum = d7c7, jjjjjjjjjjjjjjjjjjjj
+Nack Received, Resend window from A: seq = 17, ack = 0, isACK = 0, checksum = cdbc, kkkkkkkkkkkkkkkkkkkk
+
+EVENT time: 603.436768,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 0, ack = 10, isACK = 1, checksum = fff4, 
+Still packets inflight, restart timer
+Sent from buffer: seq = 18, ack = 0, isACK = 0, checksum = c3b1, llllllllllllllllllll
+
+EVENT time: 604.670654,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 999999, ack = -1, isACK = 1, checksum = 7184, Z??Đ?
+Corrupted Ack, ignore.
+
+EVENT time: 605.221313,  type: 1, fromlayer5  entity: 0
+window full.
+
+EVENT time: 605.251831,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 0, ack = 10, isACK = 1, checksum = fff4, Z
+Corrupted Ack, ignore.
+
+EVENT time: 611.970642,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 9, ack = 0, isACK = 0, checksum = 554c, wwwwwwwwwwwwwwwwwwww
+Packet already received. Ignore.
+
+EVENT time: 613.891846,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 0, ack = 10, isACK = 1, checksum = fff4, 
+Still packets inflight, restart timer
+
+EVENT time: 614.351746,  type: 1, fromlayer5  entity: 1
+window full.
+
+EVENT time: 618.930847,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 10, ack = 0, isACK = 0, checksum = 4137, yyyyyyyyyyyyyyyyyyyy
+Packet already received. Ignore.
+
+EVENT time: 619.481384,  type: 0, timerinterrupt   entity: 1
+Sent from B: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+          TOLAYER3: packet being lost
+timer started
+Sent from B: seq = 15, ack = 0, isACK = 0, checksum = 1e0f, cccccccccccccccccccc
+Sent from B: seq = 16, ack = 0, isACK = 0, checksum = ffef, ffffffffffffffffffff
+Sent from B: seq = 17, ack = 0, isACK = 0, checksum = f5e4, gggggggggggggggggggg
+Sent from B: seq = 18, ack = 0, isACK = 0, checksum = e1cf, iiiiiiiiiiiiiiiiiiii
+          TOLAYER3: packet being lost
+Sent from B: seq = 19, ack = 0, isACK = 0, checksum = b9a6, mmmmmmmmmmmmmmmmmmmm
+          TOLAYER3: packet being lost
+Sent from B: seq = 20, ack = 0, isACK = 0, checksum = 917d, qqqqqqqqqqqqqqqqqqqq
+
+EVENT time: 623.065979,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 19, ack = 0, isACK = 0, checksum = b9a6, mmmmmmmmmmmmmmmmmmmm
+Resend last Aak sent from A: seq = 0, ack = 15, isACK = 1, checksum = ffef, 
+
+EVENT time: 627.597290,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 11, ack = 0, isACK = 0, checksum = 372c, zzzzzzzzzzzzzzzzzzzz
+Packet already received. Ignore.
+
+EVENT time: 628.237427,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 9, ack = -1, isACK = 1, checksum = b1c9, ??Đ?
+Nack Received, Resend window from A: seq = 11, ack = 0, isACK = 0, checksum = 372c, zzzzzzzzzzzzzzzzzzzz
+timer started
+Nack Received, Resend window from A: seq = 12, ack = 0, isACK = 0, checksum = 3226, aaaaaaaaaaaaaaaaaaaa
+Nack Received, Resend window from A: seq = 13, ack = 0, isACK = 0, checksum = 1407, dddddddddddddddddddd
+Nack Received, Resend window from A: seq = 14, ack = 0, isACK = 0, checksum = 9fc, eeeeeeeeeeeeeeeeeeee
+Nack Received, Resend window from A: seq = 15, ack = 0, isACK = 0, checksum = ebdc, hhhhhhhhhhhhhhhhhhhh
+Nack Received, Resend window from A: seq = 16, ack = 0, isACK = 0, checksum = d7c7, jjjjjjjjjjjjjjjjjjjj
+Nack Received, Resend window from A: seq = 17, ack = 0, isACK = 0, checksum = cdbc, kkkkkkkkkkkkkkkkkkkk
+Nack Received, Resend window from A: seq = 18, ack = 0, isACK = 0, checksum = c3b1, llllllllllllllllllll
+
+EVENT time: 629.392700,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 0, ack = 11, isACK = 1, checksum = fff3, 
+Still packets inflight, restart timer
+Sent from buffer: seq = 19, ack = 0, isACK = 0, checksum = af9c, nnnnnnnnnnnnnnnnnnnn
+          TOLAYER3: packet being lost
+
+EVENT time: 630.153015,  type: 1, fromlayer5  entity: 1
+window full.
+
+EVENT time: 632.287415,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 999999, ack = 0, isACK = 0, checksum = 3226, aaaaaaaaaaaaaaaaaaaa
+Checksum error at B: seq = 999999, ack = 0, isACK = 0, checksum = 3226, aaaaaaaaaaaaaaaaaaaa
+Nack sent from B: seq = 999999, ack = -1, isACK = 1, checksum = 6684, ??Ȑ?
+
+EVENT time: 635.436890,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 13, ack = -1, isACK = 1, checksum = 4d53, ???
+Nack Received, Resend window from A: seq = 12, ack = 0, isACK = 0, checksum = 3226, aaaaaaaaaaaaaaaaaaaa
+timer started
+Nack Received, Resend window from A: seq = 13, ack = 0, isACK = 0, checksum = 1407, dddddddddddddddddddd
+Nack Received, Resend window from A: seq = 14, ack = 0, isACK = 0, checksum = 9fc, eeeeeeeeeeeeeeeeeeee
+          TOLAYER3: packet being corrupted
+Nack Received, Resend window from A: seq = 15, ack = 0, isACK = 0, checksum = ebdc, hhhhhhhhhhhhhhhhhhhh
+Nack Received, Resend window from A: seq = 16, ack = 0, isACK = 0, checksum = d7c7, jjjjjjjjjjjjjjjjjjjj
+          TOLAYER3: packet being lost
+Nack Received, Resend window from A: seq = 17, ack = 0, isACK = 0, checksum = cdbc, kkkkkkkkkkkkkkkkkkkk
+Nack Received, Resend window from A: seq = 18, ack = 0, isACK = 0, checksum = c3b1, llllllllllllllllllll
+Nack Received, Resend window from A: seq = 19, ack = 0, isACK = 0, checksum = af9c, nnnnnnnnnnnnnnnnnnnn
+          TOLAYER3: packet being lost
+
+EVENT time: 636.662476,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 13, ack = 0, isACK = 0, checksum = 1407, dddddddddddddddddddd
+Packet already received. Ignore.
+
+EVENT time: 636.664795,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 20, ack = 0, isACK = 0, checksum = 917d, qqqqqqqqqqqqqqqqqqqq
+Resend last Aak sent from A: seq = 0, ack = 15, isACK = 1, checksum = ffef, 
+
+EVENT time: 641.320740,  type: 1, fromlayer5  entity: 1
+window full.
+
+EVENT time: 642.947388,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 14, ack = -1, isACK = 1, checksum = 4d52, ???
+Nack Received, Resent the window from B: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+          TOLAYER3: packet being corrupted
+timer started
+Nack Received, Resent the window from B: seq = 15, ack = 0, isACK = 0, checksum = 1e0f, cccccccccccccccccccc
+          TOLAYER3: packet being corrupted
+Nack Received, Resent the window from B: seq = 16, ack = 0, isACK = 0, checksum = ffef, ffffffffffffffffffff
+Nack Received, Resent the window from B: seq = 17, ack = 0, isACK = 0, checksum = f5e4, gggggggggggggggggggg
+Nack Received, Resent the window from B: seq = 18, ack = 0, isACK = 0, checksum = e1cf, iiiiiiiiiiiiiiiiiiii
+          TOLAYER3: packet being corrupted
+Nack Received, Resent the window from B: seq = 19, ack = 0, isACK = 0, checksum = b9a6, mmmmmmmmmmmmmmmmmmmm
+          TOLAYER3: packet being lost
+Nack Received, Resent the window from B: seq = 20, ack = 0, isACK = 0, checksum = 917d, qqqqqqqqqqqqqqqqqqqq
+Nack Received, Resent the window from B: seq = 21, ack = 0, isACK = 0, checksum = 7d68, ssssssssssssssssssss
+          TOLAYER3: packet being corrupted
+
+EVENT time: 645.510559,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 0, ack = 12, isACK = 1, checksum = fff2, 
+Still packets inflight, restart timer
+Sent from buffer: seq = 20, ack = 0, isACK = 0, checksum = a591, oooooooooooooooooooo
+
+EVENT time: 646.740417,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 15, ack = 0, isACK = 0, checksum = ebdc, hhhhhhhhhhhhhhhhhhhh
+Accpeted at B: seq = 15, ack = 0, isACK = 0, checksum = ebdc, hhhhhhhhhhhhhhhhhhhh
+Ack sent from B: seq = 0, ack = 15, isACK = 1, checksum = ffef, 
+
+EVENT time: 647.391724,  type: 1, fromlayer5  entity: 1
+window full.
+
+EVENT time: 649.324707,  type: 1, fromlayer5  entity: 0
+window full.
+
+EVENT time: 651.952759,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 16, ack = 0, isACK = 0, checksum = d7c7, jjjjjjjjjjjjjjjjjjjj
+Accpeted at B: seq = 16, ack = 0, isACK = 0, checksum = d7c7, jjjjjjjjjjjjjjjjjjjj
+Ack sent from B: seq = 0, ack = 16, isACK = 1, checksum = ffee, 
+          TOLAYER3: packet being corrupted
+
+EVENT time: 654.312744,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 13, ack = 0, isACK = 0, checksum = 4b3e, Zxxxxxxxxxxxxxxxxxxx
+Checksum error at A: seq = 13, ack = 0, isACK = 0, checksum = 4b3e, Zxxxxxxxxxxxxxxxxxxx
+Nack sent from A: seq = 13, ack = -1, isACK = 1, checksum = adc5, ??Đ?
+
+EVENT time: 657.192566,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 15, ack = 0, isACK = 0, checksum = 1e0f, cccccccccccccccccccc
+Packet already received, igonre.
+
+EVENT time: 660.792358,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 16, ack = 0, isACK = 0, checksum = ffef, ffffffffffffffffffff
+Accpeted at A: seq = 16, ack = 0, isACK = 0, checksum = ffef, ffffffffffffffffffff
+Ack sent from A: seq = 0, ack = 16, isACK = 1, checksum = ffee, 
+          TOLAYER3: packet being corrupted
+
+EVENT time: 660.870544,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 8, ack = -1, isACK = 1, checksum = b1ca, Z??Đ?
+Corrupted Ack, ignore.
+
+EVENT time: 661.835327,  type: 1, fromlayer5  entity: 0
+window full.
+
+EVENT time: 666.947388,  type: 0, timerinterrupt   entity: 1
+Sent from B: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+timer started
+Sent from B: seq = 15, ack = 0, isACK = 0, checksum = 1e0f, cccccccccccccccccccc
+Sent from B: seq = 16, ack = 0, isACK = 0, checksum = ffef, ffffffffffffffffffff
+Sent from B: seq = 17, ack = 0, isACK = 0, checksum = f5e4, gggggggggggggggggggg
+Sent from B: seq = 18, ack = 0, isACK = 0, checksum = e1cf, iiiiiiiiiiiiiiiiiiii
+Sent from B: seq = 19, ack = 0, isACK = 0, checksum = b9a6, mmmmmmmmmmmmmmmmmmmm
+          TOLAYER3: packet being corrupted
+Sent from B: seq = 20, ack = 0, isACK = 0, checksum = 917d, qqqqqqqqqqqqqqqqqqqq
+
+EVENT time: 667.617798,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 13, ack = 0, isACK = 0, checksum = 1407, dddddddddddddddddddd
+Packet already received. Ignore.
+
+EVENT time: 667.836853,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 17, ack = 0, isACK = 0, checksum = f5e4, gggggggggggggggggggg
+Accpeted at A: seq = 17, ack = 0, isACK = 0, checksum = f5e4, gggggggggggggggggggg
+Ack sent from A: seq = 0, ack = 17, isACK = 1, checksum = ffed, 
+          TOLAYER3: packet being corrupted
+
+EVENT time: 669.510559,  type: 0, timerinterrupt   entity: 0
+Sent from A: seq = 13, ack = 0, isACK = 0, checksum = 1407, dddddddddddddddddddd
+          TOLAYER3: packet being lost
+timer started
+Sent from A: seq = 14, ack = 0, isACK = 0, checksum = 9fc, eeeeeeeeeeeeeeeeeeee
+Sent from A: seq = 15, ack = 0, isACK = 0, checksum = ebdc, hhhhhhhhhhhhhhhhhhhh
+Sent from A: seq = 16, ack = 0, isACK = 0, checksum = d7c7, jjjjjjjjjjjjjjjjjjjj
+          TOLAYER3: packet being lost
+Sent from A: seq = 17, ack = 0, isACK = 0, checksum = cdbc, kkkkkkkkkkkkkkkkkkkk
+Sent from A: seq = 18, ack = 0, isACK = 0, checksum = c3b1, llllllllllllllllllll
+Sent from A: seq = 19, ack = 0, isACK = 0, checksum = af9c, nnnnnnnnnnnnnnnnnnnn
+          TOLAYER3: packet being lost
+Sent from A: seq = 20, ack = 0, isACK = 0, checksum = a591, oooooooooooooooooooo
+
+EVENT time: 675.161743,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 14, ack = 0, isACK = 0, checksum = 9fc, eeeeeeeeeeeeeeeeeeee
+Packet already received. Ignore.
+
+EVENT time: 676.558472,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 18, ack = 0, isACK = 0, checksum = e1cf, iiiiiiiiiiiiiiiiiiii
+Accpeted at A: seq = 18, ack = 0, isACK = 0, checksum = e1cf, iiiiiiiiiiiiiiiiiiii
+Ack sent from A: seq = 0, ack = 18, isACK = 1, checksum = ffec, 
+
+EVENT time: 677.228638,  type: 1, fromlayer5  entity: 1
+window full.
+
+EVENT time: 680.765869,  type: 1, fromlayer5  entity: 1
+window full.
+
+EVENT time: 681.564819,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 19, ack = 0, isACK = 0, checksum = b9a6, mmmmmmmmmmmmmmmmmmmm
+Accpeted at A: seq = 19, ack = 0, isACK = 0, checksum = b9a6, mmmmmmmmmmmmmmmmmmmm
+Ack sent from A: seq = 0, ack = 19, isACK = 1, checksum = ffeb, 
+
+EVENT time: 684.561401,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 15, ack = 0, isACK = 0, checksum = ebdc, hhhhhhhhhhhhhhhhhhhh
+Packet already received. Ignore.
+
+EVENT time: 686.701111,  type: 1, fromlayer5  entity: 1
+window full.
+
+EVENT time: 690.043457,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 20, ack = 0, isACK = 0, checksum = 917d, qqqqqqqqqqqqqqqqqqqq
+Accpeted at A: seq = 20, ack = 0, isACK = 0, checksum = 917d, qqqqqqqqqqqqqqqqqqqq
+Ack sent from A: seq = 0, ack = 20, isACK = 1, checksum = ffea, 
+
+EVENT time: 690.947388,  type: 0, timerinterrupt   entity: 1
+Sent from B: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+          TOLAYER3: packet being corrupted
+timer started
+Sent from B: seq = 15, ack = 0, isACK = 0, checksum = 1e0f, cccccccccccccccccccc
+Sent from B: seq = 16, ack = 0, isACK = 0, checksum = ffef, ffffffffffffffffffff
+Sent from B: seq = 17, ack = 0, isACK = 0, checksum = f5e4, gggggggggggggggggggg
+Sent from B: seq = 18, ack = 0, isACK = 0, checksum = e1cf, iiiiiiiiiiiiiiiiiiii
+Sent from B: seq = 19, ack = 0, isACK = 0, checksum = b9a6, mmmmmmmmmmmmmmmmmmmm
+          TOLAYER3: packet being lost
+Sent from B: seq = 20, ack = 0, isACK = 0, checksum = 917d, qqqqqqqqqqqqqqqqqqqq
+
+EVENT time: 693.510559,  type: 0, timerinterrupt   entity: 0
+Sent from A: seq = 13, ack = 0, isACK = 0, checksum = 1407, dddddddddddddddddddd
+          TOLAYER3: packet being lost
+timer started
+Sent from A: seq = 14, ack = 0, isACK = 0, checksum = 9fc, eeeeeeeeeeeeeeeeeeee
+          TOLAYER3: packet being lost
+Sent from A: seq = 15, ack = 0, isACK = 0, checksum = ebdc, hhhhhhhhhhhhhhhhhhhh
+Sent from A: seq = 16, ack = 0, isACK = 0, checksum = d7c7, jjjjjjjjjjjjjjjjjjjj
+Sent from A: seq = 17, ack = 0, isACK = 0, checksum = cdbc, kkkkkkkkkkkkkkkkkkkk
+          TOLAYER3: packet being lost
+Sent from A: seq = 18, ack = 0, isACK = 0, checksum = c3b1, llllllllllllllllllll
+Sent from A: seq = 19, ack = 0, isACK = 0, checksum = af9c, nnnnnnnnnnnnnnnnnnnn
+Sent from A: seq = 20, ack = 0, isACK = 0, checksum = a591, oooooooooooooooooooo
+          TOLAYER3: packet being lost
+
+EVENT time: 694.453369,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 16, ack = 0, isACK = 0, checksum = d7c7, jjjjjjjjjjjjjjjjjjjj
+Packet already received. Ignore.
+
+EVENT time: 696.750183,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 7, ack = -1, isACK = 1, checksum = b1cb, Z??Đ?
+Corrupted Ack, ignore.
+
+EVENT time: 699.722473,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 9, ack = -1, isACK = 1, checksum = a9c9, Z??Ȑ?
+Corrupted Ack, ignore.
+
+EVENT time: 700.884460,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 13, ack = 0, isACK = 0, checksum = 4b3e, xxxxxxxxxxxxxxxxxxxx
+Packet already received, igonre.
+
+EVENT time: 703.508240,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 13, ack = -1, isACK = 1, checksum = adc5, ??Ȑ?
+Nack Received, Resent the window from B: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+timer started
+Nack Received, Resent the window from B: seq = 15, ack = 0, isACK = 0, checksum = 1e0f, cccccccccccccccccccc
+Nack Received, Resent the window from B: seq = 16, ack = 0, isACK = 0, checksum = ffef, ffffffffffffffffffff
+Nack Received, Resent the window from B: seq = 17, ack = 0, isACK = 0, checksum = f5e4, gggggggggggggggggggg
+Nack Received, Resent the window from B: seq = 18, ack = 0, isACK = 0, checksum = e1cf, iiiiiiiiiiiiiiiiiiii
+          TOLAYER3: packet being lost
+Nack Received, Resent the window from B: seq = 19, ack = 0, isACK = 0, checksum = b9a6, mmmmmmmmmmmmmmmmmmmm
+Nack Received, Resent the window from B: seq = 20, ack = 0, isACK = 0, checksum = 917d, qqqqqqqqqqqqqqqqqqqq
+          TOLAYER3: packet being lost
+Nack Received, Resent the window from B: seq = 21, ack = 0, isACK = 0, checksum = 7d68, ssssssssssssssssssss
+
+EVENT time: 703.791199,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+Packet already received, igonre.
+
+EVENT time: 706.276489,  type: 1, fromlayer5  entity: 0
+window full.
+
+EVENT time: 710.793518,  type: 1, fromlayer5  entity: 1
+window full.
+
+EVENT time: 711.037537,  type: 1, fromlayer5  entity: 0
+window full.
+
+EVENT time: 711.520325,  type: 1, fromlayer5  entity: 1
+window full.
+
+EVENT time: 711.803772,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 9, ack = 0, isACK = 999999, checksum = 554c, wwwwwwwwwwwwwwwwwwww
+Checksum error at B: seq = 9, ack = 0, isACK = 999999, checksum = 554c, wwwwwwwwwwwwwwwwwwww
+Nack sent from B: seq = 9, ack = -1, isACK = 1, checksum = a8c9, ??Ȑ?
+
+EVENT time: 712.213867,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 15, ack = 0, isACK = 0, checksum = 1e0f, cccccccccccccccccccc
+Packet already received, igonre.
+
+EVENT time: 716.222229,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 10, ack = 0, isACK = 0, checksum = 4137, yyyyyyyyyyyyyyyyyyyy
+Packet already received. Ignore.
+
+EVENT time: 717.510559,  type: 0, timerinterrupt   entity: 0
+Sent from A: seq = 13, ack = 0, isACK = 0, checksum = 1407, dddddddddddddddddddd
+          TOLAYER3: packet being corrupted
+timer started
+Sent from A: seq = 14, ack = 0, isACK = 0, checksum = 9fc, eeeeeeeeeeeeeeeeeeee
+Sent from A: seq = 15, ack = 0, isACK = 0, checksum = ebdc, hhhhhhhhhhhhhhhhhhhh
+Sent from A: seq = 16, ack = 0, isACK = 0, checksum = d7c7, jjjjjjjjjjjjjjjjjjjj
+Sent from A: seq = 17, ack = 0, isACK = 0, checksum = cdbc, kkkkkkkkkkkkkkkkkkkk
+          TOLAYER3: packet being lost
+Sent from A: seq = 18, ack = 0, isACK = 0, checksum = c3b1, llllllllllllllllllll
+          TOLAYER3: packet being lost
+Sent from A: seq = 19, ack = 0, isACK = 0, checksum = af9c, nnnnnnnnnnnnnnnnnnnn
+Sent from A: seq = 20, ack = 0, isACK = 0, checksum = a591, oooooooooooooooooooo
+
+EVENT time: 719.066589,  type: 1, fromlayer5  entity: 0
+window full.
+
+EVENT time: 721.704895,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 16, ack = 0, isACK = 0, checksum = ffef, ffffffffffffffffffff
+Packet already received, igonre.
+
+EVENT time: 722.850159,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 11, ack = 0, isACK = 0, checksum = 372c, zzzzzzzzzzzzzzzzzzzz
+Packet already received. Ignore.
+
+EVENT time: 723.839966,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 17, ack = 0, isACK = 0, checksum = f5e4, gggggggggggggggggggg
+Packet already received, igonre.
+
+EVENT time: 726.039246,  type: 1, fromlayer5  entity: 0
+window full.
+
+EVENT time: 726.710571,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 18, ack = 0, isACK = 0, checksum = e1cf, iiiiiiiiiiiiiiiiiiii
+Packet already received, igonre.
+
+EVENT time: 727.508240,  type: 0, timerinterrupt   entity: 1
+Sent from B: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+timer started
+Sent from B: seq = 15, ack = 0, isACK = 0, checksum = 1e0f, cccccccccccccccccccc
+          TOLAYER3: packet being corrupted
+Sent from B: seq = 16, ack = 0, isACK = 0, checksum = ffef, ffffffffffffffffffff
+Sent from B: seq = 17, ack = 0, isACK = 0, checksum = f5e4, gggggggggggggggggggg
+          TOLAYER3: packet being lost
+Sent from B: seq = 18, ack = 0, isACK = 0, checksum = e1cf, iiiiiiiiiiiiiiiiiiii
+Sent from B: seq = 19, ack = 0, isACK = 0, checksum = b9a6, mmmmmmmmmmmmmmmmmmmm
+Sent from B: seq = 20, ack = 0, isACK = 0, checksum = 917d, qqqqqqqqqqqqqqqqqqqq
+
+EVENT time: 727.721680,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 12, ack = 0, isACK = 0, checksum = 3226, aaaaaaaaaaaaaaaaaaaa
+Packet already received. Ignore.
+
+EVENT time: 735.609497,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 0, ack = 13, isACK = 1, checksum = fff1, 
+Still packets inflight, restart timer
+Sent from buffer: seq = 21, ack = 0, isACK = 0, checksum = 9b86, pppppppppppppppppppp
+
+EVENT time: 737.453552,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 13, ack = 0, isACK = 0, checksum = 1407, dddddddddddddddddddd
+Packet already received. Ignore.
+
+EVENT time: 742.159485,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 14, ack = 0, isACK = 0, checksum = 9fc, eeeeeeeeeeeeeeeeeeee
+Packet already received. Ignore.
+
+EVENT time: 742.190125,  type: 1, fromlayer5  entity: 0
+window full.
+
+EVENT time: 743.308716,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 0, ack = 14, isACK = 1, checksum = fff0, 
+Still packets inflight, restart timer
+Sent from buffer: seq = 22, ack = 0, isACK = 0, checksum = 8771, rrrrrrrrrrrrrrrrrrrr
+
+EVENT time: 746.022461,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 15, ack = 0, isACK = 0, checksum = ebdc, hhhhhhhhhhhhhhhhhhhh
+Packet already received. Ignore.
+
+EVENT time: 747.367188,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+Packet already received, igonre.
+
+EVENT time: 751.508240,  type: 0, timerinterrupt   entity: 1
+Sent from B: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+          TOLAYER3: packet being lost
+timer started
+Sent from B: seq = 15, ack = 0, isACK = 0, checksum = 1e0f, cccccccccccccccccccc
+          TOLAYER3: packet being lost
+Sent from B: seq = 16, ack = 0, isACK = 0, checksum = ffef, ffffffffffffffffffff
+          TOLAYER3: packet being corrupted
+Sent from B: seq = 17, ack = 0, isACK = 0, checksum = f5e4, gggggggggggggggggggg
+Sent from B: seq = 18, ack = 0, isACK = 0, checksum = e1cf, iiiiiiiiiiiiiiiiiiii
+          TOLAYER3: packet being lost
+Sent from B: seq = 19, ack = 0, isACK = 0, checksum = b9a6, mmmmmmmmmmmmmmmmmmmm
+          TOLAYER3: packet being lost
+Sent from B: seq = 20, ack = 0, isACK = 0, checksum = 917d, qqqqqqqqqqqqqqqqqqqq
+          TOLAYER3: packet being corrupted
+
+EVENT time: 754.470642,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 16, ack = 0, isACK = 0, checksum = d7c7, Zjjjjjjjjjjjjjjjjjjj
+Checksum error at B: seq = 16, ack = 0, isACK = 0, checksum = d7c7, Zjjjjjjjjjjjjjjjjjjj
+Nack sent from B: seq = 16, ack = -1, isACK = 1, checksum = 9069, ????
+
+EVENT time: 756.090637,  type: 1, fromlayer5  entity: 0
+window full.
+
+EVENT time: 757.004211,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 15, ack = 0, isACK = 0, checksum = 1e0f, Zccccccccccccccccccc
+Checksum error at A: seq = 15, ack = 0, isACK = 0, checksum = 1e0f, Zccccccccccccccccccc
+Nack sent from A: seq = 15, ack = -1, isACK = 1, checksum = abc3, ??Đ?
+
+EVENT time: 759.517578,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 16, ack = 0, isACK = 0, checksum = ffef, Zfffffffffffffffffff
+Checksum error at A: seq = 16, ack = 0, isACK = 0, checksum = ffef, Zfffffffffffffffffff
+Nack sent from A: seq = 16, ack = -1, isACK = 1, checksum = abc2, ??Đ?
+          TOLAYER3: packet being lost
+
+EVENT time: 760.634033,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 9, ack = -1, isACK = 1, checksum = adc9, ??Ȑ?
+Nack Received, Resent the window from B: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+timer started
+Nack Received, Resent the window from B: seq = 15, ack = 0, isACK = 0, checksum = 1e0f, cccccccccccccccccccc
+          TOLAYER3: packet being corrupted
+Nack Received, Resent the window from B: seq = 16, ack = 0, isACK = 0, checksum = ffef, ffffffffffffffffffff
+Nack Received, Resent the window from B: seq = 17, ack = 0, isACK = 0, checksum = f5e4, gggggggggggggggggggg
+Nack Received, Resent the window from B: seq = 18, ack = 0, isACK = 0, checksum = e1cf, iiiiiiiiiiiiiiiiiiii
+Nack Received, Resent the window from B: seq = 19, ack = 0, isACK = 0, checksum = b9a6, mmmmmmmmmmmmmmmmmmmm
+          TOLAYER3: packet being corrupted
+Nack Received, Resent the window from B: seq = 20, ack = 0, isACK = 0, checksum = 917d, qqqqqqqqqqqqqqqqqqqq
+          TOLAYER3: packet being lost
+Nack Received, Resent the window from B: seq = 21, ack = 0, isACK = 0, checksum = 7d68, ssssssssssssssssssss
+          TOLAYER3: packet being corrupted
+
+EVENT time: 761.589661,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 17, ack = 0, isACK = 0, checksum = f5e4, Zggggggggggggggggggg
+Checksum error at A: seq = 17, ack = 0, isACK = 0, checksum = f5e4, Zggggggggggggggggggg
+Nack sent from A: seq = 17, ack = -1, isACK = 1, checksum = abc1, ??Đ?
+
+EVENT time: 763.502014,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 18, ack = 0, isACK = 0, checksum = e1cf, iiiiiiiiiiiiiiiiiiii
+Packet already received, igonre.
+
+EVENT time: 764.487549,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 10, ack = -1, isACK = 1, checksum = b1c8, ??Đ?
+Nack Received, Resent the window from B: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+          TOLAYER3: packet being corrupted
+timer started
+Nack Received, Resent the window from B: seq = 15, ack = 0, isACK = 0, checksum = 1e0f, cccccccccccccccccccc
+          TOLAYER3: packet being lost
+Nack Received, Resent the window from B: seq = 16, ack = 0, isACK = 0, checksum = ffef, ffffffffffffffffffff
+Nack Received, Resent the window from B: seq = 17, ack = 0, isACK = 0, checksum = f5e4, gggggggggggggggggggg
+Nack Received, Resent the window from B: seq = 18, ack = 0, isACK = 0, checksum = e1cf, iiiiiiiiiiiiiiiiiiii
+          TOLAYER3: packet being lost
+Nack Received, Resent the window from B: seq = 19, ack = 0, isACK = 0, checksum = b9a6, mmmmmmmmmmmmmmmmmmmm
+Nack Received, Resent the window from B: seq = 20, ack = 0, isACK = 0, checksum = 917d, qqqqqqqqqqqqqqqqqqqq
+          TOLAYER3: packet being corrupted
+Nack Received, Resent the window from B: seq = 21, ack = 0, isACK = 0, checksum = 7d68, ssssssssssssssssssss
+          TOLAYER3: packet being lost
+
+EVENT time: 767.308716,  type: 0, timerinterrupt   entity: 0
+Sent from A: seq = 15, ack = 0, isACK = 0, checksum = ebdc, hhhhhhhhhhhhhhhhhhhh
+timer started
+Sent from A: seq = 16, ack = 0, isACK = 0, checksum = d7c7, jjjjjjjjjjjjjjjjjjjj
+Sent from A: seq = 17, ack = 0, isACK = 0, checksum = cdbc, kkkkkkkkkkkkkkkkkkkk
+Sent from A: seq = 18, ack = 0, isACK = 0, checksum = c3b1, llllllllllllllllllll
+Sent from A: seq = 19, ack = 0, isACK = 0, checksum = af9c, nnnnnnnnnnnnnnnnnnnn
+          TOLAYER3: packet being lost
+Sent from A: seq = 20, ack = 0, isACK = 0, checksum = a591, oooooooooooooooooooo
+          TOLAYER3: packet being corrupted
+Sent from A: seq = 21, ack = 0, isACK = 0, checksum = 9b86, pppppppppppppppppppp
+Sent from A: seq = 22, ack = 0, isACK = 0, checksum = 8771, rrrrrrrrrrrrrrrrrrrr
+
+EVENT time: 769.558167,  type: 1, fromlayer5  entity: 0
+window full.
+
+EVENT time: 772.589478,  type: 2, fromlayer3  entity: 1
+Received at B: seq = 12, ack = -1, isACK = 1, checksum = b1c6, ??Đ?
+Nack Received, Resent the window from B: seq = 14, ack = 0, isACK = 0, checksum = 281a, bbbbbbbbbbbbbbbbbbbb
+          TOLAYER3: packet being lost
+timer started
+Nack Received, Resent the window from B: seq = 15, ack = 0, isACK = 0, checksum = 1e0f, cccccccccccccccccccc
+Nack Received, Resent the window from B: seq = 16, ack = 0, isACK = 0, checksum = ffef, ffffffffffffffffffff
+Nack Received, Resent the window from B: seq = 17, ack = 0, isACK = 0, checksum = f5e4, gggggggggggggggggggg
+Nack Received, Resent the window from B: seq = 18, ack = 0, isACK = 0, checksum = e1cf, iiiiiiiiiiiiiiiiiiii
+          TOLAYER3: packet being lost
+Nack Received, Resent the window from B: seq = 19, ack = 0, isACK = 0, checksum = b9a6, mmmmmmmmmmmmmmmmmmmm
+Nack Received, Resent the window from B: seq = 20, ack = 0, isACK = 0, checksum = 917d, qqqqqqqqqqqqqqqqqqqq
+Nack Received, Resent the window from B: seq = 21, ack = 0, isACK = 0, checksum = 7d68, ssssssssssssssssssss
+
+EVENT time: 772.976196,  type: 2, fromlayer3  entity: 0
+Received at A: seq = 13, ack = 0, isACK = 0, checksum = 4b3e, Zxxxxxxxxxxxxxxxxxxx
+Checksum error at A: seq = 13, ack = 0, isACK = 0, checksum = 4b3e, Zxxxxxxxxxxxxxxxxxxx
+Nack sent from A: seq = 13, ack = -1, isACK = 1, checksum = abc5, ??Đ?
+
+EVENT time: 774.344849,  type: 1, fromlayer5  entity: 1
+window full.
+
+EVENT time: 775.563293,  type: 2, fromlayer3  entity: 1
+ Simulator terminated at time 775.563293
+ after sending 80 msgs from layer5
+Jies-MBP-2:project2 jay$ 
